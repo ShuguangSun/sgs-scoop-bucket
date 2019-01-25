@@ -1,0 +1,22 @@
+{
+    "homepage": "https://github.com/JabRef/jabref",
+    "version": "4.2",
+    "license": "MIT",
+    "url": "https://github.com/JabRef/jabref/releases/download/v4.2/JabRef_windows_x64_4_2.exe",
+    "hash": "0675aaad51edbf794958c7c744f5ed5a18448115549c6069060d41a1f8098ceb",
+    "bin": [
+        ""
+    ],
+    "shortcuts": [
+        [
+            "JabRef.exe",
+            "JabRef"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/JabRef/jabref"
+    },
+    "autoupdate": {
+        "url": "https://github.com/JabRef/jabref/releases/download/v$version/JabRef_windows_$underscoreVersion.exe"
+    }
+}
