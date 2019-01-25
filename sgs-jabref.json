@@ -3,7 +3,7 @@
     "version": "4.3.1",
     "license": "MIT",
     "url": "https://github.com/JabRef/jabref/releases/download/v4.3.1/JabRef-4.3.1.jar",
-    "hash": "5b52ee079c430a59d99006a644bba3d191c21d1ec9e6bae5c87493ad74ccc395"
+    "hash": "5b52ee079c430a59d99006a644bba3d191c21d1ec9e6bae5c87493ad74ccc395",
     "bin": [
         ""
     ],
