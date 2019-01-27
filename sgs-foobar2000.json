@@ -16,8 +16,8 @@
     "persist": [
         "user-components",
         "configuration",
-        "playlists-v1.4"
-        "portable_mode_enabled"
+        "playlists-v1.4",
+        "portable_mode_enabled",
         "theme.fth"
     ],
     "installer": {
