@@ -2,8 +2,8 @@
     "homepage": "https://github.com/JabRef/jabref",
     "version": "4.3.1",
     "license": "MIT",
-    "url": "https://github.com/JabRef/jabref/releases/download/v4.3.1/JabRef-4.3.1.jar",
-    "hash": "5b52ee079c430a59d99006a644bba3d191c21d1ec9e6bae5c87493ad74ccc395",
+    "url": "https://github.com/JabRef/jabref/releases/download/v4.3.1/JabRef_windows-x64_4_3_1.exe",
+    "hash": "5ca382423459dc15d382f5bf6d0acd2194e98bda46b8b14642784d4f8a51f8ff",
     "bin": [
         ""
     ],
