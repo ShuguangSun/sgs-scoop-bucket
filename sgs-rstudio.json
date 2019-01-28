@@ -4,7 +4,6 @@
     "homepage": "https://www.rstudio.com/",
     "url": "https://s3.amazonaws.com/rstudio-ide-build/desktop/windows/RStudio-1.2.1244.zip",
     "hash": "aef63d386db6c91eb68849962b360f1098166750757ade8d51ae2fefda0a9ff6",
-    "depends": "r",
     "bin": "bin/rstudio.exe",
     "shortcuts": [
         [
