@@ -1,0 +1,36 @@
+{
+    "homepage": "https://calibre-ebook.com/",
+    "version": "3.38.1",
+    "description": "Powerful and easy to use e-book manager.",
+    "license": "GPL-3.0",
+    "url": "https://github.com/kovidgoyal/calibre/releases/download/v3.38.1/calibre-portable-installer-3.38.1.exe#/calibre-portable-installer.exe",
+    "hash": "40aabdc614863270af1b1ef6dd12924d341bb032b9bd224eec93198614a14d96",
+    "persist": [
+        "Calibre Library",
+        "Calibre Settings"
+    ],
+    "installer": {
+        "args": "\"$dir\""
+    },
+    "pre_install": [
+        "copy-item \"$dir\\Calibre Portable\\*\" -Destination \"$dir\" -Recurse ",
+    ],
+    "post_install": [
+        "Remove-Item \"$dir\\Calibre Portable\" -Recurse -Force"
+    ],
+    "shortcuts": [
+        [
+            "calibre-portable.exe",
+            "Calibre"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/kovidgoyal/calibre"
+    },
+    "autoupdate": {
+        "url": "https://github.com/kovidgoyal/calibre/releases/download/v$version/calibre-portable-installer-$version.exe#/calibre-portable-installer.exe",
+        "hash": {
+            "url": "https://calibre-ebook.com/signatures/$basename.sha512"
+        }
+    }
+}
