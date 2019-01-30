@@ -8,7 +8,7 @@
             "hash": "fe788d3ecf3917c6c6d2bf92bf51aa8563f08c4316f5b465ca2b44a03b18fb82"
         },
         "32bit": {
-            "url": "https://github.com/qpdf/qpdf/releases/download/release-qpdf-8.3.0/qpdf-8.3.0-bin-msvc32.zip"
+            "url": "https://github.com/qpdf/qpdf/releases/download/release-qpdf-8.3.0/qpdf-8.3.0-bin-msvc32.zip",
             "hash": "942ab6f2b20a7e9101f13b6c49d813c7b67e3bc67bc0e3b9cfff93e570587c10"
         }
     },
