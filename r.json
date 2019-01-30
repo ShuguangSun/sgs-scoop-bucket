@@ -23,11 +23,11 @@
     "shortcuts": [
         [
             "bin\\x64\\r.exe",
-            "R x64"
+            "R\\R x64"
         ],
         [
             "bin\\i386\\r.exe",
-            "R i386"
+            "R\\R i386"
         ],
     ],
     "notes": [
