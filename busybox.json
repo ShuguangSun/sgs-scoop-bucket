@@ -173,11 +173,6 @@
         ],
         [
             "busybox.exe",
-            "dos2unix",
-            "dos2unix"
-        ],
-        [
-            "busybox.exe",
             "dpkg-deb",
             "dpkg-deb"
         ],
