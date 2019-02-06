@@ -1,0 +1,21 @@
+{
+    "version": "1.2.1268",
+    "license": "AGPL-3.0-only",
+    "homepage": "https://www.rstudio.com/",
+    "url": "https://s3.amazonaws.com/rstudio-ide-build/desktop/windows/RStudio-1.2.1268.zip",
+    "hash": "d8e392272ba785c74c38b31235198133db7e56cc2976f2de53e8f3f531336ae8",
+    "bin": "bin/rstudio.exe",
+    "shortcuts": [
+        [
+            "bin/rstudio.exe",
+            "R Studio"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.rstudio.com/products/rstudio/download/preview/",
+        "re": "RStudio-([\\d.]+).zip"
+    },
+    "autoupdate": {
+        "url": "https://s3.amazonaws.com/rstudio-ide-build/desktop/windows/RStudio-$version.zip"
+    }
+}
