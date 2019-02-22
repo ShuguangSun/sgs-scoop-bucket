@@ -1,0 +1,35 @@
+{
+    "version": "0.4.0-291",
+    "license": {
+        "identifier": "Apache-2.0,MIT,Vim,Freeware(Node.js)",
+        "url": "https://github.com/neovim/neovim/blob/master/LICENSE"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/neovim/neovim/releases/download/nightly/nvim-win64.zip",
+            "hash": "577bb5f9dfed4a5de1b2a5d651135214347018f46952d6ef3400f238d93ab7ca"
+        }
+    },
+    "homepage": "https://neovim.io/",
+    "bin": [
+        "Neovim\\bin\\nvim.exe",
+        "Neovim\\bin\\nvim-qt.exe"
+    ],
+    "shortcuts": [
+        [
+            "Neovim\\bin\\nvim-qt.exe",
+            "Neovim"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/neovim/neovim/releases/tag/nightly",
+        "re": "NVIM v(?<version>[\\d.-]+)-"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/neovim/neovim/releases/download/nightly/nvim-win64.zip"
+            }
+        }
+    }
+}
