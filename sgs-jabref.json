@@ -6,10 +6,6 @@
         "64bit": {
             "url": "https://github.com/JabRef/jabref/releases/download/v4.3.1/JabRef_windows-x64_4_3_1.exe#/dl.7z",
             "hash": "5ca382423459dc15d382f5bf6d0acd2194e98bda46b8b14642784d4f8a51f8ff"
-        },
-        "32bit": {
-            "url": "https://github.com/JabRef/jabref/releases/download/v4.3.1/JabRef_windows_4_3_1.exe#/dl.7z",
-            "hash": "5ca382423459dc15d382f5bf6d0acd2194e98bda46b8b14642784d4f8a51f8ff"
         }
     },
     "bin": [
@@ -28,9 +24,6 @@
         "architecture": {
             "64bit": {
                 "url": "https://github.com/JabRef/jabref/releases/download/v$version/JabRef_windows-x64_$underscoreVersion.exe#/dl.7z"
-            },
-            "32bit": {
-                "url": "https://github.com/JabRef/jabref/releases/download/v$version/JabRef_windows_$underscoreVersion.exe#/dl.7z"
             }
         }
     }

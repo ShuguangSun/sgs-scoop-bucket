@@ -7,11 +7,6 @@
             "url": "https://github.com/thequackdaddy/R-OpenBLAS/releases/download/v3.5.2/R-3.5.2-win.exe",
             "hash": "85f3e572ea55c374358b5150aa7104e47988122dcd720ff547eb2477a2cb89e7",
             "pre_install": "copy-item -recurse \"$dir\\bin\\x64\" \"$dir\\bin\\curr_arch\""
-        },
-        "32bit": {
-            "url": "https://github.com/thequackdaddy/R-OpenBLAS/releases/download/v3.5.2/R-3.5.2-win.exe",
-            "hash": "85f3e572ea55c374358b5150aa7104e47988122dcd720ff547eb2477a2cb89e7",
-            "pre_install": "copy-item -recurse \"$dir\\bin\\i386\" \"$dir\\bin\\curr_arch\""
         }
     },
     "innosetup": true,
@@ -36,9 +31,6 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/thequackdaddy/R-OpenBLAS/releases/download/v$version/R-$version-win.exe"
-            },
-            "32bit": {
                 "url": "https://github.com/thequackdaddy/R-OpenBLAS/releases/download/v$version/R-$version-win.exe"
             }
         }

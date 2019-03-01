@@ -4,10 +4,6 @@
     "version": "2962-g9aae70405",
     "license": "GPL-2.0",
     "architecture": {
-        "32bit": {
-            "url": "https://frippery.org/files/busybox/busybox-w32-FRP-2962-g9aae70405.exe#/busybox.exe",
-            "hash": "af193b369c0360d7b70f975665a453018e3d9c0458af0d252d271c8b8a30e6b5"
-        },
         "64bit": {
             "url": "https://frippery.org/files/busybox/busybox-w64-FRP-2962-g9aae70405.exe#/busybox.exe",
             "hash": "adb2360905f737cb7e58c915056f18f7b1e0843e99474ed5ce6f4bde042943ef"
@@ -19,9 +15,6 @@
     },
     "autoupdate": {
         "architecture": {
-            "32bit": {
-                "url": "https://frippery.org/files/busybox/busybox-w32-FRP-$version.exe#/busybox.exe"
-            },
             "64bit": {
                 "url": "https://frippery.org/files/busybox/busybox-w64-FRP-$version.exe#/busybox.exe"
             }

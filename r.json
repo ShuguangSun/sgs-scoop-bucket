@@ -7,11 +7,6 @@
             "url": "https://mirrors.aliyun.com/CRAN/bin/windows/base/R-3.5.2-win.exe",
             "hash": "519f54bc707e61a6562995ec89830d78920c6e2383d06a601f3543d9e511535e",
             "pre_install": "copy-item -recurse \"$dir\\bin\\x64\" \"$dir\\bin\\curr_arch\""
-        },
-        "32bit": {
-            "url": "https://mirrors.aliyun.com/CRAN/bin/windows/base/R-3.5.2-win.exe",
-            "hash": "519f54bc707e61a6562995ec89830d78920c6e2383d06a601f3543d9e511535e",
-            "pre_install": "copy-item -recurse \"$dir\\bin\\i386\" \"$dir\\bin\\curr_arch\""
         }
     },
     "innosetup": true,
@@ -43,9 +38,6 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://mirrors.aliyun.com/CRAN/bin/windows/base/R-$version-win.exe"
-            },
-            "32bit": {
                 "url": "https://mirrors.aliyun.com/CRAN/bin/windows/base/R-$version-win.exe"
             }
         }
