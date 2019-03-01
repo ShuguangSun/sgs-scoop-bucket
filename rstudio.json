@@ -1,9 +1,9 @@
 {
-    "version": "1.2.1293",
+    "version": "1.2.1303",
     "license": "AGPL-3.0-only",
     "homepage": "https://www.rstudio.com/",
-    "url": "https://s3.amazonaws.com/rstudio-ide-build/desktop/windows/RStudio-1.2.1293.zip",
-    "hash": "89461b5ec4f563a123d965748a84aace7b0fb3cc4171a25184e7cfe583ca0c84",
+    "url": "https://s3.amazonaws.com/rstudio-ide-build/desktop/windows/RStudio-1.2.1303.zip",
+    "hash": "2de8721c80ba76a04bd6b4482e7ff0c4a68b01f562ef304c5d4159d687055f6f",
     "bin": "bin/rstudio.exe",
     "shortcuts": [
         [

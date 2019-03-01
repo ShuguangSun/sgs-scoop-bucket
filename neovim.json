@@ -1,5 +1,5 @@
 {
-    "version": "0.4.0-291",
+    "version": "0.4.0-303",
     "license": {
         "identifier": "Apache-2.0,MIT,Vim,Freeware(Node.js)",
         "url": "https://github.com/neovim/neovim/blob/master/LICENSE"
@@ -7,7 +7,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/neovim/neovim/releases/download/nightly/nvim-win64.zip",
-            "hash": "577bb5f9dfed4a5de1b2a5d651135214347018f46952d6ef3400f238d93ab7ca"
+            "hash": "82c1eb5ef8781466817d8f3c282d04d40f912c90831fe18a2caaac3137442277"
         }
     },
     "homepage": "https://neovim.io/",
