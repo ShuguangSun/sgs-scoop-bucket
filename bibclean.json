@@ -1,0 +1,8 @@
+{
+    "homepage": "http://ftp.math.utah.edu/pub/bibclean/",
+    "version": "2.17",
+    "license": "GPL",
+    "url": "http://ftp.math.utah.edu/pub/bibclean/bibclean-2.17-windows.zip",
+    "hash": "6ad589429ab8954cc7ea395f16d26ae38031bb478cf8ac678721c88b97e76687",
+    "bin": "bibclean.exe"
+}
