@@ -1,0 +1,14 @@
+{
+    "homepage": "http://ftp.math.utah.edu/pub/bibclean/",
+    "version": "1.14.1+20190309",
+    "license": "GPL",
+    "url": "https://ci.appveyor.com/api/buildjobs/gudfa3gv7pj94ab0/artifacts/hledger.zip",
+    "hash": "c95f949169734a250b33a6f98dede10bfe146b3cd11060d67f8004ee6a25b536",
+    "bin": [
+        "hledger.exe",
+        "hledger-web.exe"
+    ],
+    "checkver": {
+        "url" : "https://ci.appveyor.com/project/simonmichael/hledger/build/artifacts"
+    }
+}
