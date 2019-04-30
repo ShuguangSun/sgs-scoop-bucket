@@ -7,8 +7,9 @@
     "homepage": "https://www.foobar2000.org/encoderpack",
     "url": "https://www.videohelp.com/download/Free_Encoder_Pack-2019-04-13.exe#/dl.7z",
     "hash": "bb842adc9642ae44862e2494efd658d51c99d90e641462de3118198624262b94",
-    "depends": "sgs-bucket/sgs-foobar2000",
-    "post_install": "Copy-Item \"$dir\\*\" $(versiondir 'sgs-foobar2000' 'current' $global) -Recurse -Force",
+    "depends": "sgs-bucket/foobar2000",
+    "extract_to": "encoders",
+    "post_install": "Copy-Item \"$dir\\encoders\" $(versiondir 'foobar2000' 'current' $global) -Recurse -Force",
     "checkver": {
         "url": "https://www.foobar2000.org/encoderpack",
         "re": "Free_Encoder_Pack-([\\d-]+)\\.exe"
