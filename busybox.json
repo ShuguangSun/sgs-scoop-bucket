@@ -14,6 +14,9 @@
         "re": ">busybox-w32-FRP-([\\w-]+)\\."
     },
     "autoupdate": {
+        "hash": {
+            "url": "$baseurl/SHA256SUM"
+        },
         "architecture": {
             "64bit": {
                 "url": "https://frippery.org/files/busybox/busybox-w64-FRP-$version.exe#/busybox.exe"
