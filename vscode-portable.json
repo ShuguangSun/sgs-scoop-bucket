@@ -1,6 +1,6 @@
 {
     "homepage": "https://code.visualstudio.com/",
-    "version": "1.34.0",
+    "version": "1.35.1",
     "license": {
         "identifier": "Freeware",
         "url": "https://code.visualstudio.com/License/"
@@ -30,12 +30,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://vscode-update.azurewebsites.net/1.34.0/win32-x64-archive/stable#/dl.7z",
-            "hash": "a454b90305023e0d67cbc943766c4041ba426bce907c83d900e809fcc3c125f8"
-        },
-        "32bit": {
-            "url": "https://vscode-update.azurewebsites.net/1.34.0/win32-archive/stable#/dl.7z",
-            "hash": "f8a2daf83a413793a0d8b5b4dd3067540b895f75f35473cee091869729894883"
+            "url": "https://vscode-update.azurewebsites.net/1.35.1/win32-x64-archive/stable#/dl.7z",
+            "hash": "4f8fad678178c5ba7a0e615a2b626a9ac6d84f92b181d9f1f8bfc5748293dce3"
         }
     },
     "autoupdate": {
@@ -45,13 +41,6 @@
                 "hash": {
                     "url": "https://code.visualstudio.com/sha?build=stable",
                     "jp": "$.products[?(@.platform.os == 'win32-x64-archive')].sha256hash"
-                }
-            },
-            "32bit": {
-                "url": "https://vscode-update.azurewebsites.net/$version/win32-archive/stable#/dl.7z",
-                "hash": {
-                    "url": "https://code.visualstudio.com/sha?build=stable",
-                    "jp": "$.products[?(@.platform.os == 'win32-archive')].sha256hash"
                 }
             }
         }
