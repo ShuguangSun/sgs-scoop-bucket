@@ -1,10 +1,10 @@
 {
     "homepage": "https://calibre-ebook.com/",
-    "version": "3.44.0",
+    "version": "3.46.0",
     "description": "Powerful and easy to use e-book manager.",
     "license": "GPL-3.0",
-    "url": "https://github.com/kovidgoyal/calibre/releases/download/v3.44.0/calibre-portable-installer-3.44.0.exe#/calibre-portable-installer.exe",
-    "hash": "sha512:69691183e605c90bf115ec57d91b1492d22d97164707505cec09a4b917bed2c6d11d1def920469f92b2f38f4d8745196030c48c6f2b4daa8ef62482c70d7db41",
+    "url": "https://github.com/kovidgoyal/calibre/releases/download/v3.46.0/calibre-portable-installer-3.46.0.exe#/calibre-portable-installer.exe",
+    "hash": "sha512:fe7d206e931461583ef09cbf98c8adf57f0b850d94a4761cb98603aaae515477c72fbdb40455b02fa14f80a7144f1e60d9d4bf4e53ae88c957dd81520c3aad64",
     "persist": [
         "Calibre Library",
         "Calibre Settings"
