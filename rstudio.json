@@ -17,7 +17,7 @@
         "re": "RStudio-([\\d.]+).zip"
     },
     "autoupdate": {
-        "url": "https://s3.amazonaws.com/rstudio-ide-build/desktop/windows/RStudio-$version.zip"
+        "url": "https://s3.amazonaws.com/rstudio-ide-build/desktop/windows/RStudio-$version.zip",
         "hash": {
             "url": "https://www.rstudio.com/products/rstudio/download/preview/",
             "regex": "(?sm)$url.*?$md5"
