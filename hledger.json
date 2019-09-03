@@ -1,9 +1,9 @@
 {
     "homepage": "https://hledger.org/",
-    "version": "2019-08-17",
+    "version": "2019-09-01",
     "license": "GPLv3",
     "url": "https://ci.appveyor.com/api/projects/simonmichael/hledger/artifacts/hledger.zip?branch=master",
-    "hash": "cd954d4a50a1d0a327abd68faea6fa686ab877dd7c9cdcd117d81b8cbecc4ef7",
+    "hash": "39d4982d7276fd26ce196e1e6be1fbc68d36c9c97c3e01b4a822758c161280e1",
     "bin": [
         "hledger.exe",
         "hledger-web.exe"
