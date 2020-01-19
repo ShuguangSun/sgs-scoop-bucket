@@ -1,0 +1,104 @@
+{
+    "homepage": "http://www.vim.org",
+    "description": "A highly configurable text editor for efficiently creating and changing any kind of text.",
+    "license": "Vim",
+    "version": "8.2.0129",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/vim/vim-win32-installer/releases/download/v8.2.0129/gvim_8.2.0129_x64.zip",
+            "hash": "0db29725994274a95fe7b3f0d7f07cdaac5a76e9484b17f1eb1da71a4b98b23a"
+        }
+    },
+    "extract_dir": "vim\\vim82",
+    "bin": [
+        "vim.exe",
+        [
+            "vim.exe",
+            "vi"
+        ],
+        [
+            "vim.exe",
+            "ex",
+            "-e"
+        ],
+        [
+            "vim.exe",
+            "view",
+            "-R"
+        ],
+        [
+            "vim.exe",
+            "rvim",
+            "-Z"
+        ],
+        [
+            "vim.exe",
+            "rview",
+            "-RZ"
+        ],
+        [
+            "vim.exe",
+            "vimdiff",
+            "-d"
+        ],
+        "gvim.exe",
+        [
+            "gvim.exe",
+            "gview",
+            "-R"
+        ],
+        [
+            "gvim.exe",
+            "evim",
+            "-y"
+        ],
+        [
+            "gvim.exe",
+            "eview",
+            "-Ry"
+        ],
+        [
+            "gvim.exe",
+            "rgvim",
+            "-Z"
+        ],
+        [
+            "gvim.exe",
+            "rgview",
+            "-RZ"
+        ],
+        [
+            "gvim.exe",
+            "gvimdiff",
+            "-d"
+        ],
+        "xxd.exe"
+    ],
+    "shortcuts": [
+        [
+            "gvim.exe",
+            "gVim"
+        ]
+    ],
+    "post_install": [
+        "if( !(test-path ~\\.vimrc) -and !(test-path ~\\_vimrc) -and !(test-path ~\\vimfiles\\vimrc) -and !(test-path $env:VIM\\_vimrc) ) {",
+        "    cp \"$dir\\vimrc_example.vim\" ~\\_vimrc",
+        "    \"set shell=$((gcm powershell).path)\\ -executionpolicy\\ bypass\" | out-file  ~\\_vimrc -append -encoding ascii",
+        "    echo 'Default vimrc file created in ~/_vimrc, with shell set to PowerShell.'",
+        "} else { echo 'Existing vimrc file found, no default configuration created' }"
+    ],
+    "checkver": {
+        "github": "https://github.com/vim/vim-win32-installer"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/vim/vim-win32-installer/releases/download/v$version/gvim_$version_x64.zip"
+            }
+        },
+        "extract_dir": "vim\\vim$majorVersion$minorVersion"
+    },
+    "suggest": {
+        "vimtutor": "vimtutor"
+    }
+}

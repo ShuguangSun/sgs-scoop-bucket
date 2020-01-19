@@ -1,0 +1,48 @@
+{
+    "version": "3.8.1.0",
+    "description": "Free, open-source and portable Python distribution for Windows",
+    "homepage": "https://winpython.github.io/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/winpython/winpython/releases/download/2.2.20191222/Winpython64-3.8.1.0Ps2.exe#/dl.7z",
+            "hash": "9820619d590df78054fc75e86e25e0f4faa74a55c92281a580b327d588cc04fa",
+            "extract_dir": "WPy64-3810\\python-3.8.1.amd64"
+        },
+        "32bit": {
+            "url": "https://downloads.sourceforge.net/project/winpython/WinPython_3.8/3.8.1.0/WinPython32-3.8.1.0dot.exe#/dl.7z",
+            "hash": "251a85b3bac687974f360d3796048c20ded3bf0bd69e0d1cfd1db23d013f89ed",
+            "extract_dir": "WPy32-3810\\python-3.8.1"
+        }
+    },
+    "bin": [
+        "python.exe",
+        "pythonw.exe",
+        [
+            "python.exe",
+            "python3"
+        ]
+    ],
+    "env_add_path": "scripts",
+    "checkver": {
+        "github": "https://github.com/winpython/winpython/",
+        "regex": "-([\\d.]+)\\.exe",
+        "reverse": true
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://downloads.sourceforge.net/project/winpython/WinPython_$majorVersion.$minorVersion/$version/WinPython64-$versiondot.exe#/dl.7z",
+                "extract_dir": "WPy64-$cleanVersion\\python-$majorVersion.$minorVersion.$patchVersion.amd64"
+            },
+            "32bit": {
+                "url": "https://downloads.sourceforge.net/project/winpython/WinPython_$majorVersion.$minorVersion/$version/WinPython32-$versiondot.exe#/dl.7z",
+                "extract_dir": "WPy32-$cleanVersion\\python-$majorVersion.$minorVersion.$patchVersion"
+            }
+        },
+        "hash": {
+            "url": "https://winpython.github.io/md5_sha1.txt",
+            "regex": "$sha256\\s+\\|\\s+$basename"
+        }
+    }
+}
