@@ -1,16 +1,15 @@
 {
     "homepage": "https://github.com/JabRef/jabref",
-    "version": "4.3.1",
+    "version": "2020-03",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/JabRef/jabref/releases/download/v4.3.1/JabRef_windows-x64_4_3_1.exe#/dl.7z",
-            "hash": "5ca382423459dc15d382f5bf6d0acd2194e98bda46b8b14642784d4f8a51f8ff"
+            "url": "https://builds.jabref.org/master/JabRef-5.0-portable_windows.zip",
+            "hash": "f1c962e6a12125cb9d7a4b5562e8e8e820ca4d7c72d8b32c54e1530308caf680",
+            "extract_dir": "Jabref"
         }
     },
-    "bin": [
-        ""
-    ],
+    "bin": "",
     "shortcuts": [
         [
             "JabRef.exe",
@@ -18,12 +17,14 @@
         ]
     ],
     "checkver": {
-        "github": "https://github.com/JabRef/jabref"
+        "url": "https://builds.jabref.org/master/",
+        "re": "portable_windows.zip</a></td><td class=\"fb-d\">([\\d-]+)-(?:[\\d]+) (?:[\\d:]+)</td>"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/JabRef/jabref/releases/download/v$version/JabRef_windows-x64_$underscoreVersion.exe#/dl.7z"
+                "url": "https://builds.jabref.org/master/JabRef-5.0-portable_windows.zip",
+                "extract_dir": "Jabref"
             }
         }
     }
