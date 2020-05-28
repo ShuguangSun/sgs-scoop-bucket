@@ -1,0 +1,23 @@
+{
+    "homepage": "https://github.com/dandavison/delta",
+    "version": "0.0",
+    "license": "MIT",
+    "description": "A syntax-highlighter for git and diff output.",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/TimothyYe/ydict/releases/download/V2.0/ydict-win64-2.0.tar.gz",
+            "hash": "a41d1e74d59d34f4180795978bd928715f0a757fc10489c4832a8ac9a54f72d2"
+        }
+    },
+    "bin": "delta.exe",
+    "checkver": {
+        "github": "https://github.com/dandavison/delta"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/dandavison/delta/releases/download/$version/delta-$version-x86_64-pc-windows-gnu.zip"
+            }
+        }
+    }
+}
