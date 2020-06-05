@@ -1,11 +1,11 @@
 {
     "homepage": "https://mupdf.com/",
     "description": "A lightweight PDF, XPS, and E-book viewer.",
-    "version": "1.16.0",
+    "version": "1.17.0",
     "license": "AGPL-3.0-only",
-    "url": "https://mupdf.com/downloads/archive/mupdf-1.16.0-windows.zip",
-    "hash": "8d45ebb102833944831a31daca25c6ab92e24ebf7e8d63dac61f1e213259b98e",
-    "extract_dir": "mupdf-1.16.0-windows",
+    "url": "https://mupdf.com/downloads/archive/mupdf-1.17.0-windows.zip",
+    "hash": "35e69030e721185f8e4471fe8c7572d912fcf56671ce83fbac5709d55fb7c962",
+    "extract_dir": "mupdf-1.17.0-windows",
     "bin": [
         "mupdf.exe",
         "mupdf-gl.exe",

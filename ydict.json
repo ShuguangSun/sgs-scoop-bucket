@@ -1,0 +1,23 @@
+{
+    "homepage": "https://github.com/TimothyYe/ydict",
+    "version": "2.0",
+    "license": "MIT",
+    "description": "Yet another command-line youdao dictionary for geeks!.",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/TimothyYe/ydict/releases/download/V2.0/ydict-win64-2.0.tar.gz",
+            "hash": "a41d1e74d59d34f4180795978bd928715f0a757fc10489c4832a8ac9a54f72d2"
+        }
+    },
+    "bin": "ydict.exe",
+    "checkver": {
+        "github": "https://github.com/TimothyYe/ydict"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/TimothyYe/ydict/releases/download/V$version/ydict-win64-$version.tar.gz"
+            }
+        }
+    }
+}
