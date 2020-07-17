@@ -1,12 +1,12 @@
 {
-    "version": "1.5.4",
+    "version": "1.5.5",
     "license": {
         "identifier": "Freeware",
         "url": "https://www.foobar2000.org/license"
     },
     "homepage": "https://www.foobar2000.org/",
-    "url": "https://www.videohelp.com/download/foobar2000_v1.5.4.exe",
-    "hash": "838adc84c9d36312f82e333c8876ce9b653436f33912a00f879e52f99a1c8654",
+    "url": "https://www.videohelp.com/download/foobar2000_v1.5.5.exe",
+    "hash": "e5f983c12b2eda9c1e0bc6de95413005b61953be9bd1401398c5ba72713f23fd",
     "shortcuts": [
         [
             "foobar2000.exe",
