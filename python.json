@@ -2,15 +2,15 @@
     "homepage": "https://www.python.org/",
     "description": "A programming language that lets you work quickly and integrate systems more effectively.",
     "license": "Python-2.0",
-    "version": "3.8.4",
+    "version": "3.8.5",
     "architecture": {
         "64bit": {
-            "url": "https://www.python.org/ftp/python/3.8.4/python-3.8.4-amd64.exe",
-            "hash": "md5:12297fb08088d1002f7e93a93fd779c6"
+            "url": "https://www.python.org/ftp/python/3.8.5/python-3.8.5-amd64.exe",
+            "hash": "md5:0ba2e9ca29b719da6e0b81f7f33f08f6"
         },
         "32bit": {
-            "url": "https://www.python.org/ftp/python/3.8.4/python-3.8.4.exe",
-            "hash": "md5:c3d71a80f518cfba4d038de53bca2734"
+            "url": "https://www.python.org/ftp/python/3.8.5/python-3.8.5.exe",
+            "hash": "md5:959873b37b74c1508428596b7f9df151"
         }
     },
     "installer": {

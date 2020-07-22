@@ -1,12 +1,12 @@
 {
     "homepage": "https://nodejs.org",
-    "version": "14.5.0",
+    "version": "14.6.0",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://nodejs.org/dist/v14.5.0/node-v14.5.0-win-x64.7z",
-            "hash": "1361eecf92c753d50ce14f97138069a1de7aaccd0df59180dccd25cb48d2779d",
-            "extract_dir": "node-v14.5.0-win-x64"
+            "url": "https://nodejs.org/dist/v14.6.0/node-v14.6.0-win-x64.7z",
+            "hash": "078407a38f747e7d2a1ff2765f44ce2b8bc9aa040c28e35b28b0ae0dffbde50f",
+            "extract_dir": "node-v14.6.0-win-x64"
         }
     },
     "persist": [
