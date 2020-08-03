@@ -1,7 +1,7 @@
 {
     "homepage": "https://fastcopy.jp/en/",
     "description": "The Fastest Copy/Delete Software on Windows",
-    "version": "3.90",
+    "version": "3.92",
     "autoupdate": {
         "url": "https://fastcopy.jp/archive/FastCopy$cleanVersion.zip"
     },
@@ -10,7 +10,7 @@
         "re": "FastCopy ver ([\\d.]+)",
         "url": "https://fastcopy.jp/en/"
     },
-    "hash": "a8042472807f348564bb2f3dcbc0b736bdc6604ef4c31362ce83648751954df7",
+    "hash": "04ef1db25c903a3d97a6f72a9b0652155393f273f288d4e39918230971c774ec",
     "license": "GPL-3.0-only",
     "persist": [
         "FastCopy2.ini",
@@ -30,5 +30,5 @@
             "FastCopy"
         ]
     ],
-    "url": "https://fastcopy.jp/archive/FastCopy390.zip"
+    "url": "https://fastcopy.jp/archive/FastCopy392.zip"
 }

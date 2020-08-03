@@ -3,11 +3,10 @@
     "description": "Open source graph visualization software.",
     "version": "2.45.202007",
     "license": "EPL-1.0",
-    "url": "https://www2.graphviz.org/Packages/development/windows/10/cmake/Release/x64/graphviz-install-2.45.20200720.1433-win64.exe#/dl.7z",
-    "hash": "f77a17146ff4aefabd69e2564a4f5a9340b53f8d859216afabb58ee0d4078ac1",
+    "url": "https://www2.graphviz.org/Packages/development/windows/10/cmake/Release/x64/graphviz-install-2.45.20200729.1351-win64.exe#/dl.7z",
+    "hash": "dc7c85cb1a2c74389df9a3466c9e6bd66c8695364c6751655512c57188d7a6cd",
     "bin": [
-        "bin/dot.exe",
-        "bin/dotty.exe"
+        "bin/dot.exe"
     ],
     "checkver": {
         "url": "https://www2.graphviz.org/Packages/development/windows/10/cmake/Release/x64/",

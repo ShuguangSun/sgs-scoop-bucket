@@ -1,6 +1,6 @@
 {
     "homepage": "https://code.visualstudio.com/",
-    "version": "1.47.2",
+    "version": "1.47.3",
     "license": {
         "identifier": "Freeware",
         "url": "https://code.visualstudio.com/License/"
@@ -30,8 +30,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://vscode-update.azurewebsites.net/1.47.2/win32-x64-archive/stable#/dl.7z",
-            "hash": "17e357ee000ae15877582d013320b396ed00695a76843fb2a8ea4659ae0a4207"
+            "url": "https://vscode-update.azurewebsites.net/1.47.3/win32-x64-archive/stable#/dl.7z",
+            "hash": "e5f11b54b5f9554aea982f9f4196ac49f749ed01c9ebc68cec1fb1653f7014cc"
         }
     },
     "autoupdate": {
