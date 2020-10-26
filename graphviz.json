@@ -1,18 +1,19 @@
 {
     "homepage": "https://www.graphviz.org/",
     "description": "Open source graph visualization software.",
-    "version": "2.45.202007",
+    "version": "2.38",
     "license": "EPL-1.0",
-    "url": "https://www2.graphviz.org/Packages/development/windows/10/cmake/Release/x64/graphviz-install-2.45.20200729.1351-win64.exe#/dl.7z",
-    "hash": "dc7c85cb1a2c74389df9a3466c9e6bd66c8695364c6751655512c57188d7a6cd",
+    "url": "https://graphviz.gitlab.io/_pages/Download/windows/graphviz-2.38.msi",
+    "hash": "c794ea03bc2631fff468f4d97fa6726c536fc98ee579529779aa6f45e94e4f6d",
     "bin": [
-        "bin/dot.exe"
+        "bin/dot.exe",
+        "bin/dotty.exe"
     ],
     "checkver": {
-        "url": "https://www2.graphviz.org/Packages/development/windows/10/cmake/Release/x64/",
-        "re": "graphviz-install-(?<version>[\\d\\.]+?)(?<minor>[\\d][\\d].[\\d]+)-win64.exe"
+        "url": "https://graphviz.gitlab.io/_pages/Download/Download_windows.html",
+        "re": "([\\d.]+) Stable Release"
     },
     "autoupdate": {
-        "url": "https://www2.graphviz.org/Packages/development/windows/10/cmake/Release/x64/graphviz-install-$version$matchMinor-win64.exe#/dl.7z"
+        "url": "https://graphviz.gitlab.io/_pages/Download/windows/graphviz-$version.msi"
     }
 }

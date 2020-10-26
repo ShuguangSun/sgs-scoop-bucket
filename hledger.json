@@ -1,18 +1,17 @@
 {
     "homepage": "https://hledger.org/",
-    "version": "2020-03",
+    "version": "1.19.1",
     "license": "GPLv3",
-    "url": "https://ci.appveyor.com/api/projects/simonmichael/hledger/artifacts/hledger.zip?branch=master",
-    "hash": "af1d3efd72dd1c75ddc9574e31b255fdb9a8324eb0e8d1baa7ed2c72a9f690c6",
+    "url": "https://github.com/simonmichael/hledger/releases/download/1.19.1/hledger-windows.zip",
+    "hash": "29af063f88a74982a579461b4be33b3e412d889105d35ef90488d1d47ab7b1e5",
     "bin": [
         "hledger.exe",
         "hledger-web.exe"
     ],
     "checkver": {
-        "url": "https://ci.appveyor.com/api/projects/simonmichael/hledger/",
-        "re": "\"committed\":\"([\\d-]+)-(?:[\\d][\\d])T"
+        "github": "https://github.com/simonmichael/hledger"
     },
     "autoupdate": {
-        "url": "https://ci.appveyor.com/api/projects/simonmichael/hledger/artifacts/hledger.zip?branch=master"
+        "url": "https://github.com/simonmichael/hledger/releases/download/$version/hledger-windows.zip"
     }
 }
