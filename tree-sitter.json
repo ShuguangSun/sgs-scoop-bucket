@@ -1,0 +1,14 @@
+{
+    "homepage": "https://tree-sitter.github.io/tree-sitter/",
+    "version": "0.17.3",
+    "license": "MIT",
+    "url": "https://github.com/tree-sitter/tree-sitter/releases/download/0.17.3/tree-sitter-windows-x64.gz",
+    "hash": "256d00eb559e2f7ac8c47f192263ad804503474a967245af0145886d12517990",
+    "bin": "tree-sitter.exe",
+    "checkver": {
+        "github": "https://github.com/tree-sitter/tree-sitter"
+    },
+    "autoupdate": {
+        "url": "https://github.com/tree-sitter/tree-sitter/releases/download/$version/tree-sitter-windows-x64.gz"
+    }
+}
