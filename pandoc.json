@@ -1,13 +1,13 @@
 {
     "homepage": "https://pandoc.org",
-    "version": "2.11.1",
+    "version": "2.11.1.1",
     "license": "GPL-2.0-or-later",
     "description": "Universal markup converter.",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/jgm/pandoc/releases/download/2.11.1/pandoc-2.11.1-windows-x86_64.zip",
-            "hash": "15beef83544d8cb5c3a2f0a3828911a46b23f5352eba69939564a3ebf58afe7f",
-            "extract_dir": "pandoc-2.11.1"
+            "url": "https://github.com/jgm/pandoc/releases/download/2.11.1.1/pandoc-2.11.1.1-windows-x86_64.zip",
+            "hash": "a894ff65ff51ac405b46e73d27a384edc68a224f41e1c6b57d0b7119a916c2d8",
+            "extract_dir": "pandoc-2.11.1.1"
         }
     },
     "bin": [
