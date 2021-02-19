@@ -1,12 +1,15 @@
 {
     "homepage": "https://www.r-project.org",
-    "version": "4.0.3",
+    "version": "4.0.4",
     "license": "GPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://mirrors.aliyun.com/CRAN/bin/windows/base/R-4.0.3-win.exe",
-            "hash": "966e97db3e074356fc29f51a2b2c856d95c7eb30953b71297fbc5a3d01c34d8f",
-            "pre_install": "copy-item -recurse \"$dir\\bin\\x64\" \"$dir\\bin\\curr_arch\""
+            "url": "https://mirrors.aliyun.com/CRAN/bin/windows/base/R-4.0.4-win.exe",
+            "hash": "ac1679bf1ae90ea8899263c1c99e8d84da04739414ea6e51cad1cb111e8ff112",
+            "pre_install": [
+                "copy-item -recurse \"$dir\\bin\\x64\" \"$dir\\bin\\curr_arch\"",
+                "Rename-Item \"$dir\\bin\\R,2.exe\" 'R.exe'"
+            ]
         }
     },
     "innosetup": true,
@@ -21,6 +24,12 @@
             "Rgui"
         ]
     ],
+    "installer": {
+        "script": [
+            "Remove-Item \"$dir\\bin\\R,*.exe\" -Force",
+            "Copy-Item \"$dir\\bin\\R.exe\" \"$dir\\bin\\Rscript.exe\""
+        ]
+    },
     "notes": [
         "You'll need to type 'r.ps1' or 'r.cmd' to run R, because in Powershell 'r' runs the last command. Alternatively 'rterm' can be used to start the interactive R terminal session.",
         "",

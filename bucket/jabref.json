@@ -1,11 +1,11 @@
 {
     "homepage": "https://github.com/JabRef/jabref",
-    "version": "2020-11",
+    "version": "2021-02",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://builds.jabref.org/master/JabRef-5.2-portable_windows.zip",
-            "hash": "86da53ab0fc04be18bc64a18ba52b5b52fa3c91c477d864ebe76baa037668b4f",
+            "url": "https://builds.jabref.org/master/JabRef-5.3-portable_windows.zip",
+            "hash": "7e5e122cf455028d93b7fc496458ff5a8656b07a1c4523ec1e92d4fa4334bd0b",
             "extract_dir": "Jabref"
         }
     },
@@ -23,7 +23,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://builds.jabref.org/master/JabRef-5.2-portable_windows.zip",
+                "url": "https://builds.jabref.org/master/JabRef-5.3-portable_windows.zip",
                 "extract_dir": "Jabref"
             }
         }

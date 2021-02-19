@@ -1,11 +1,11 @@
 {
-    "version": "2.8.11",
+    "version": "3.0.3000",
     "license": "GPL-3.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/bardsoftware/ganttproject/releases/download/ganttproject-2.8.11/ganttproject-2.8.11-r2396.zip",
-            "hash": "1aa022a3a41bbe407c327e37943acfa9b790564e3f993153019aecfd17bf9c99",
-            "extract_dir": "ganttproject-2.8.11-r2396"
+            "url": "https://github.com/bardsoftware/ganttproject/releases/download/ganttproject-3.0.3000/ganttproject-3.0.3000.zip",
+            "hash": "3e139aa5f2f8ef44af7f278579f5fb09c7cbb5b102e8e1e6abb2e1cf5c3b2160",
+            "extract_dir": "ganttproject-3.0.3000"
         }
     },
     "homepage": "https://github.com/bardsoftware/ganttproject",
