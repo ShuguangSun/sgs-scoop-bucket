@@ -7,10 +7,6 @@
         "64bit": {
             "url": "https://github.com/universal-ctags/ctags-win32/releases/download/2020-12-15/p5.9.20201213.0-17-gb49410f9/ctags-2020-12-15_p5.9.20201213.0-17-gb49410f9-x64.zip",
             "hash": "07da79095bd934182d28ea3def51feb6a1fd81262cd16780b45e4c453d3787f3"
-        },
-        "32bit": {
-            "url": "https://github.com/universal-ctags/ctags-win32/releases/download/2020-12-15/p5.9.20201213.0-17-gb49410f9/ctags-2020-12-15_p5.9.20201213.0-17-gb49410f9-x86.zip",
-            "hash": "2fe3869e8c73920ccdafb26f7aabd159622f62be2e24bd2127b4aeaff663a6d3"
         }
     },
     "bin": [
@@ -18,16 +14,13 @@
         "readtags.exe"
     ],
     "checkver": {
-        "github": "https://github.com/universal-ctags/ctags-win32",
-        "regex": "ctags-([\\d-]+)_(?<sha>[\\d.p]+?)-(?<n>[\\d]+)-(?<gh>[\\da-z]+)-x64"
+        "github": "https://github.com/universal-ctags/ctags-win32/tags",
+        "regex": "([\\d-]+)/(?<sha>[a-z\\d.-]+?)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
                 "url": "https://github.com/universal-ctags/ctags-win32/releases/download/$version/$matchSha/ctags-$version_$matchSha-x64.zip"
-            },
-            "32bit": {
-                "url": "https://github.com/universal-ctags/ctags-win32/releases/download/$version/$matchSha/ctags-$version_$matchSha-x86.zip"
             }
         }
     }
