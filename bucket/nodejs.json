@@ -4,7 +4,7 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://nodejs.org/dist/v15.9.0/node-v15.9.0-win-x64.7z",
+            "url": "https://mirrors.aliyun.com/nodejs-release/v15.9.0/node-v15.9.0-win-x64.7z",
             "hash": "949a15edd5dc3a3c5cfa16ce8235f1290b7d4b2b89efb951f26ef4566e09d79f",
             "extract_dir": "node-v15.9.0-win-x64"
         }
@@ -24,7 +24,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://nodejs.org/dist/v$version/node-v$version-win-x64.7z",
+                "url": "https://mirrors.aliyun.com/nodejs-release/v$version/node-v$version-win-x64.7z",
                 "extract_dir": "node-v$version-win-x64"
             }
         },
