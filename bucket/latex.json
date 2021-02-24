@@ -1,6 +1,6 @@
 {
     "homepage": "https://miktex.org",
-    "version": "21.1",
+    "version": "21.2",
     "description": "MikTeX is an up-to-date implementation of TeX/LaTeX and related programs.",
     "license": {
         "identifier": "LPPL1.3c,GPL-3.0-or-later,Public Domain,...",
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://miktex.org/download/ctan/systems/win32/miktex/setup/windows-x64/basic-miktex-21.1-x64.exe",
-            "hash": "6094e60920c31da14e9bcc56951572c79f05c3922f9192869df14aa80ed9cc31",
+            "url": "https://miktex.org/download/ctan/systems/win32/miktex/setup/windows-x64/basic-miktex-21.2-x64.exe",
+            "hash": "cb4160f7d3f310ff3490b51004596c2e42d272c08e8a1143d0757ece1ebf9d07",
             "bin": [
                 [
                     "texmfs\\install\\miktex\\bin\\x64\\miktex-console.exe",
