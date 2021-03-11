@@ -1,9 +1,9 @@
 {
     "homepage": "https://hledger.org/",
-    "version": "1.20.4",
+    "version": "1.21",
     "license": "GPLv3",
-    "url": "https://github.com/simonmichael/hledger/releases/download/1.20.4/hledger-windows.zip",
-    "hash": "5ff20e6d80090d188da37e14c5b7514a3fd100dc31be47d738b2700552163811",
+    "url": "https://github.com/simonmichael/hledger/releases/download/1.21/hledger-windows.zip",
+    "hash": "ac50550cc3d4595a6391975ea1e711a6d96f80fa40e34f37cb39abd5392bed7f",
     "bin": [
         "hledger.exe",
         "hledger-web.exe"
