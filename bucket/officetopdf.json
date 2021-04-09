@@ -1,0 +1,15 @@
+{
+    "homepage": "https://www.cognidox.com/",
+    "version": "1.8",
+    "license": "Apache-2.0 License",
+    "description": "A command line tool to convert Microsoft Office documents to PDFs.",
+    "url": "https://github.com/cognidox/OfficeToPDF/releases/download/v1.9.0.2/OfficeToPDF.exe",
+    "hash": "d3823315a718aab913fabf1490253534dbb2a7cd5d0ff8ea72dce9e9d40dcc65",
+    "bin": "OfficeToPDF.exe",
+    "checkver": {
+        "github": "https://github.com/cognidox/OfficeToPDF"
+    },
+    "autoupdate": {
+        "url": "https://github.com/cognidox/OfficeToPDF/releases/download/v$version/OfficeToPDF.exe"
+    }
+}
