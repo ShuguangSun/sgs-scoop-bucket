@@ -13,7 +13,7 @@
     ],
     "architecture": {
         "64bit": {
-                "https://update.code.visualstudio.com/1.55.1/win32-x64-archive/stable#/dl.7z",
+            "url": "https://update.code.visualstudio.com/1.55.1/win32-x64-archive/stable#/dl.7z",
             "hash": "0bc4a9ca492398e6faea62498de52e3780f4070ed15b8249cb01183c4905b3f2"
         }
     },
