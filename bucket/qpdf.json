@@ -1,14 +1,14 @@
 {
     "homepage": "http://qpdf.sourceforge.net/",
-    "version": "10.3.1",
+    "version": "10.3.2",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/qpdf/qpdf/releases/download/release-qpdf-10.3.1/qpdf-10.3.1-bin-msvc64.zip",
-            "hash": "d9dea3d2085105c7ab0f9119731bae0bc891899124ea95434a7ab468a9bf0a6b"
+            "url": "https://github.com/qpdf/qpdf/releases/download/release-qpdf-10.3.2/qpdf-10.3.2-bin-msvc64.zip",
+            "hash": "518846458c6b0fbd57e91543f4dc9342015d1d1ca3532c23faa54d64a67e650b"
         }
     },
-    "extract_dir": "qpdf-10.3.1",
+    "extract_dir": "qpdf-10.3.2",
     "bin": "bin\\qpdf.exe",
     "checkver": {
         "github": "https://github.com/qpdf/qpdf",
