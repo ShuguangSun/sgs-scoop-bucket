@@ -1,11 +1,11 @@
 {
     "homepage": "https://www.r-project.org",
-    "version": "4.1.0",
+    "version": "4.1.1",
     "license": "GPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://mirrors.aliyun.com/CRAN/bin/windows/base/R-4.1.0-win.exe",
-            "hash": "f37d0e31f4f1f3d69ec3826d26e28dd2357c79cb1ed75726570f7ba3d69a4f41",
+            "url": "https://mirrors.aliyun.com/CRAN/bin/windows/base/R-4.1.1-win.exe",
+            "hash": "8ff4571fb7a959936f84c850936a00ce788f2e105707672e782a350bfe8ae588",
             "pre_install": [
                 "copy-item -recurse \"$dir\\bin\\x64\" \"$dir\\bin\\curr_arch\"",
                 "Rename-Item \"$dir\\bin\\R,2.exe\" 'R.exe'"
