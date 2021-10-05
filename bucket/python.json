@@ -2,15 +2,15 @@
     "homepage": "https://www.python.org/",
     "description": "A programming language that lets you work quickly and integrate systems more effectively.",
     "license": "Python-2.0",
-    "version": "3.9.7",
+    "version": "3.10.0",
     "architecture": {
         "64bit": {
-            "url": "https://npm.taobao.org/mirrors/python/3.9.7/python-3.9.7-amd64.exe#/setup.exe",
-            "hash": "md5:cc3eabc1f9d6c703d1d2a4e7c041bc1d"
+            "url": "https://npm.taobao.org/mirrors/python/3.10.0/python-3.10.0-amd64.exe#/setup.exe",
+            "hash": "md5:c3917c08a7fe85db7203da6dcaa99a70"
         },
         "32bit": {
-            "url": "https://npm.taobao.org/mirrors/python/3.9.7/python-3.9.7.exe#/setup.exe",
-            "hash": "md5:0d949bdfdbd0c8c66107a980a95efd85"
+            "url": "https://npm.taobao.org/mirrors/python/3.10.0/python-3.10.0.exe#/setup.exe",
+            "hash": "md5:133aa48145032e341ad2a000cd3bff50"
         }
     },
     "installer": {
