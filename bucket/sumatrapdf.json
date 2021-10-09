@@ -30,7 +30,7 @@
         "sumatrapdfcache"
     ],
     "checkver": {
-        "url": "https://kjkpubsf.sfo2.digitaloceanspaces.com/software/sumatrapdf/sumadaily.js",
+        "url": "https://kjkpubsf.sfo2.digitaloceanspaces.com/software/sumatrapdf/sumatralatest.js",
         "regex": "var sumLatestVer = (?<version>[\\d\\.]+)(?<minor>[\\d][\\d]);"
     },
     "autoupdate": {
