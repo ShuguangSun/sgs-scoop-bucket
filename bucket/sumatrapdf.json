@@ -36,7 +36,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://kjkpubsf.sfo2.digitaloceanspaces.com/software/sumatrapdf/prerel/$version$/SumatraPDF-prerel-64.exe"
+                "url": "https://kjkpubsf.sfo2.digitaloceanspaces.com/software/sumatrapdf/prerel/$version$matchMinor/SumatraPDF-prerel-64.exe"
             }
         }
     }
