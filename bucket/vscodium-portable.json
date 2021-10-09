@@ -26,7 +26,7 @@
             }
         },
         "hash": {
-            "url": "$url.sha256"
+            "url": "https://github.com/VSCodium/vscodium/releases/download/$version/VSCodium-win32-x64-$version.zip.sha256"
         }
     }
 }
