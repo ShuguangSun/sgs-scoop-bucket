@@ -12,6 +12,10 @@
     "bin": [
         "sioyek.exe"
     ],
+    "persist": [
+        "keys_user.config",
+        "prefs_user.config"
+    ],
     "checkver": {
         "github": "https://github.com/ahrm/sioyek"
     },
