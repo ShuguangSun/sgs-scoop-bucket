@@ -1,26 +1,40 @@
 {
-    "version": "1.4.17",
+    "version": "2021.09.0+351",
     "homepage": "https://www.rstudio.com/",
     "description": "An IDE for R, which includes a console, syntax-highlighting editor that supports direct code execution, as well as tools for plotting, history, debugging and workspace management.",
     "license": "AGPL-3.0-only",
-    "url": "https://s3.amazonaws.com/rstudio-ide-build/desktop/windows/RStudio-1.4.1707.zip",
-    "hash": "abc8935a0fcc749adafd58a8b87af9ddea931b28ca80f63ccd3979a351fe650d",
-    "bin": "bin\\rstudio.exe",
+    "architecture": {
+        "64bit": {
+            "url": "https://s3.amazonaws.com/rstudio-ide-build/desktop/windows/RStudio-2021.09.0%2B351.zip",
+            "hash": "5f99c89897e867e4ef2d6b600b6d0c4f8e547cc13b7b0faef2345ac2241cba16"
+        }
+    },
+    "bin": [
+        [
+            "bin\\rstudio.exe",
+            "rstudio-preview"
+        ]
+    ],
     "shortcuts": [
         [
             "bin\\rstudio.exe",
-            "R Studio"
+            "RStudio Preview"
         ]
     ],
     "checkver": {
         "url": "https://www.rstudio.com/products/rstudio/download/preview/",
-        "re": "RStudio-(?<version>[\\d\\.]+)(?<minor>[\\d][\\d]).zip"
+        "regex": "RStudio (?<date>[\\d.]+)(?:&#43;)(?<build>\\d+) - Windows",
+        "replace": "${date}+${build}"
     },
     "autoupdate": {
-        "url": "https://s3.amazonaws.com/rstudio-ide-build/desktop/windows/RStudio-$version$matchMinor.zip",
-        "hash": {
-            "url": "https://www.rstudio.com/products/rstudio/download/preview/",
-            "regex": "(?s)$basename.*?$sha256"
+        "architecture": {
+            "64bit": {
+                "url": "https://s3.amazonaws.com/rstudio-ide-build/desktop/windows/RStudio-$matchDate%2B$matchBuild.zip",
+                "hash": {
+                    "url": "https://www.rstudio.com/products/rstudio/download/preview/",
+                    "regex": "(?s)$basename(?.\\|\n)*?\"SHA-256\" data-content=\"$sha256\""
+                }
+            }
         }
     }
 }
