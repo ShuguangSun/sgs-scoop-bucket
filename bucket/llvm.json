@@ -73,7 +73,7 @@
         },
         "hash": {
             "url": "https://github.com/ScoopInstaller/Main/raw/master/bucket/llvm.json",
-            "regex": "\"hash\" : \"([.]+?)\""
+            "regex": "\"hash\" : \"(.+?)\""
         }
 
     }
