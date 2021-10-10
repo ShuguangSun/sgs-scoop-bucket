@@ -70,8 +70,8 @@
             "64bit": {
                 "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/llvm/llvm-project/LatestRelease/LLVM-$version-win64.exe#/dl.7z",
                 "hash": {
-                    "url": "https://github.com/ScoopInstaller/Main/blob/master/bucket/llvm.json",
-                    "regex": ">hash<.*?[&]quot[;]</span>.*?[&]quot[;]</span>$sha256<"
+                    "url": "https://github.com/ScoopInstaller/Main/raw/master/bucket/llvm.json",
+                    "regex": "\"hash\": \"$sha256\""
                 }
             }
         }
