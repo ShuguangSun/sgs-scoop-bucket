@@ -75,6 +75,5 @@
             "url": "https://github.com/ScoopInstaller/Main/raw/master/bucket/llvm.json",
             "regex": "$basename.*?hash\": \"$sha256\""
         }
-
     }
 }
