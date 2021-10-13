@@ -10,7 +10,7 @@ jobs:
     name: excavate
     runs-on: windows-latest
     steps:
-    - uses: actions/checkout@master
+    - uses: actions/checkout@main
     - name: Excavator
       uses: shovel-org/GithubActions@main
       env:

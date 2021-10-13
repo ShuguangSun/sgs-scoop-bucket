@@ -8,11 +8,11 @@ name: Excavator
 jobs:
   excavate:
     name: Excavate
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-    - name: Excavator
-      uses: shovel-org/GithubActions@main
+    - name: Excavate
+      uses: Ash258/Scoop-GithubActions@stable
       env:
         GITH_EMAIL: shuguang@gmail.com
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
