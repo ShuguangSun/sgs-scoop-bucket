@@ -5,7 +5,7 @@ on:
 name: Excavator2
 jobs:
   excavate:
-    name: Excavate
+    name: Excavate2
     runs-on: windows-latest
     steps:
     - uses: actions/checkout@main
