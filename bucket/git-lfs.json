@@ -1,0 +1,32 @@
+{
+    "version": "3.0.1",
+    "description": "Git extension for versioning large files.",
+    "homepage": "https://git-lfs.github.com/",
+    "license": "MIT",
+    "suggest": {
+        "Git": [
+            "git",
+            "git-with-openssh"
+        ]
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/git-lfs/git-lfs/LatestRelease/git-lfs-windows-amd64-v3.0.1.zip",
+            "hash": "d476f6a441be522cc4881b9c5eee3508f461c9739f45abfc8229cd272b2f0f1e"
+        }
+    },
+    "bin": "git-lfs.exe",
+    "checkver": {
+        "github": "https://github.com/git-lfs/git-lfs"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/git-lfs/git-lfs/LatestRelease/git-lfs-windows-amd64-v$version.zip"
+            }
+        },
+        "hash": {
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v$version/sha256sums.asc"
+        }
+    }
+}
