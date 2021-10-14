@@ -19,7 +19,7 @@
     ],
     "checkver": {
         "github": "https://github.com/NaoTu/DesktopNaotu",
-        "re": "/releases/tag/(?:v)?([\\d\\w.-]+)"
+        "regex": "/releases/tag/(?:v)?([\\d\\w.-]+)"
     },
     "autoupdate": {
         "architecture": {

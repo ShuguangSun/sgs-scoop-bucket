@@ -19,7 +19,7 @@
     ],
     "checkver": {
         "url": "https://nodejs.org/dist/latest/",
-        "re": "node-v([\\d.]+)-x86.msi"
+        "regex": "node-v([\\d.]+)-x86.msi"
     },
     "autoupdate": {
         "architecture": {

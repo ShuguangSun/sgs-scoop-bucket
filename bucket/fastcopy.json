@@ -7,7 +7,7 @@
     },
     "bin": "FastCopy.exe",
     "checkver": {
-        "re": "FastCopy ver ([\\d.]+)",
+        "regex": "FastCopy ver ([\\d.]+)",
         "url": "https://fastcopy.jp/en/"
     },
     "hash": "04ef1db25c903a3d97a6f72a9b0652155393f273f288d4e39918230971c774ec",

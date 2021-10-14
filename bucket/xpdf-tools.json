@@ -18,7 +18,7 @@
     },
     "checkver": {
         "url": "https://www.xpdfreader.com/download.html",
-        "re": "Current version:\\s*([^\\s<]+)"
+        "regex": "Current version:\\s*([^\\s<]+)"
     },
     "autoupdate": {
         "url": "https://dl.xpdfreader.com/xpdf-tools-win-$version.zip",

@@ -42,7 +42,7 @@
     ],
     "checkver": {
         "url": "https://mirrors.aliyun.com/CRAN/bin/windows/base/",
-        "re": "<h1>R-([\\d.]+)"
+        "regex": "<h1>R-([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {

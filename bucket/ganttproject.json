@@ -19,7 +19,7 @@
     ],
     "checkver": {
         "github": "https://github.com/bardsoftware/ganttproject",
-        "re": "/ganttproject-(?<version>[\\d\\w.]+)/ganttproject-(?<long>[\\d.\\w.-]+)\\.zip"
+        "regex": "/ganttproject-(?<version>[\\d\\w.]+)/ganttproject-(?<long>[\\d.\\w.-]+)\\.zip"
     },
     "autoupdate": {
         "architecture": {

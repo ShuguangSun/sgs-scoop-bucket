@@ -18,7 +18,7 @@
     ],
     "checkver": {
         "url": "https://builds.jabref.org/master/",
-        "re": "portable_windows.zip</a></td><td class=\"fb-d\">([\\d-]+) (?:[\\d:]+)</td>"
+        "regex": "portable_windows.zip</a></td><td class=\"fb-d\">([\\d-]+) (?:[\\d:]+)</td>"
     },
     "autoupdate": {
         "architecture": {

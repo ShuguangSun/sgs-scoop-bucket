@@ -24,7 +24,7 @@
     ],
     "checkver": {
         "github": "https://github.com/docker/toolbox",
-        "re": "/releases/tag/(?:v)?([\\d\\w.-]+)"
+        "regex": "/releases/tag/(?:v)?([\\d\\w.-]+)"
     },
     "autoupdate": {
         "architecture": {

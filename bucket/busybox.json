@@ -11,7 +11,7 @@
     },
     "checkver": {
         "url": "https://frippery.org/busybox/",
-        "re": ">busybox-w32-FRP-([\\w-]+)\\."
+        "regex": ">busybox-w32-FRP-([\\w-]+)\\."
     },
     "autoupdate": {
         "hash": {

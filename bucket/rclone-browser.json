@@ -13,7 +13,7 @@
     ],
     "checkver": {
         "url": "https://github.com/mmozeiko/RcloneBrowser/releases/latest",
-        "re": "(?<version>[\\d\\w.]+)/rclone-browser-(?<long>[\\d.\\w.-]+)-win64\\.zip"
+        "regex": "(?<version>[\\d\\w.]+)/rclone-browser-(?<long>[\\d.\\w.-]+)-win64\\.zip"
     },
     "autoupdate": {
         "url": "https://github.com/mmozeiko/RcloneBrowser/releases/download/$matchVersion/rclone-browser-$matchLong-a1156a0-win64.zip",
