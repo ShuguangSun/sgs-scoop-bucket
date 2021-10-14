@@ -7,10 +7,6 @@
         "64bit": {
             "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/git-for-windows/git/LatestRelease/PortableGit-2.33.0.2-64-bit.7z.exe#/dl.7z",
             "hash": "bc030848e282d49e562ae2392a72501cf539322ad06ffe4cea8cf766f148dfe8"
-        },
-        "32bit": {
-            "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/git-for-windows/git/LatestRelease/PortableGit-2.33.0.2-32-bit.7z.exe#/dl.7z",
-            "hash": "ca65539faddd27a7036a4b9dcda3b1ecd4026f59258533d919c5cbe34727d583"
         }
     },
     "post_install": "git config --global credential.helper manager",
@@ -51,9 +47,6 @@
         "architecture": {
             "64bit": {
                 "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/git-for-windows/git/LatestRelease/PortableGit-$matchFull-64-bit.7z.exe#/dl.7z"
-            },
-            "32bit": {
-                "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/git-for-windows/git/LatestRelease/PortableGit-$matchFull-32-bit.7z.exe#/dl.7z"
             }
         },
         "hash": {
