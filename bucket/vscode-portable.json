@@ -32,7 +32,7 @@
     "persist": "data",
     "checkver": {
         "url": "https://code.visualstudio.com/sha?build=stable",
-        "jp": "$.products[?(@.platform.os == 'win32-x64-archive')].name"
+        "jsonpath": "$.products[?(@.platform.os == 'win32-x64-archive')].name"
     },
     "autoupdate": {
         "architecture": {
@@ -40,7 +40,7 @@
                 "url": "https://update.code.visualstudio.com/$version/win32-x64-archive/stable#/dl.7z",
                 "hash": {
                     "url": "https://code.visualstudio.com/sha?build=stable",
-                    "jp": "$.products[?(@.platform.os == 'win32-x64-archive')].sha256hash"
+                    "jsonpath": "$.products[?(@.platform.os == 'win32-x64-archive')].sha256hash"
                 }
             }
         }
