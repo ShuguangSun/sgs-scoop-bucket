@@ -4,8 +4,8 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://builds.jabref.org/master/JabRef-5.4-portable_windows.zip",
-            "hash": "c93d7de0531c76a9eb42c9a50be4a5db6fb475f7570bcb3bcc0eb8ca5446b693",
+            "url": "https://builds.jabref.org/main/JabRef-5.4-portable_windows.zip",
+            "hash": "e0c3cb0a2ff75cadee0eff4508c8609560b065bf6736226f504dada88fa08b27",
             "extract_dir": "Jabref"
         }
     },
@@ -17,13 +17,13 @@
         ]
     ],
     "checkver": {
-        "url": "https://builds.jabref.org/master/",
+        "url": "https://builds.jabref.org/main/",
         "regex": "portable_windows.zip</a></td><td class=\"fb-d\">([\\d-]+) (?:[\\d:]+)</td>"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://builds.jabref.org/master/JabRef-5.4-portable_windows.zip",
+                "url": "https://builds.jabref.org/main/JabRef-5.4-portable_windows.zip",
                 "extract_dir": "Jabref"
             }
         }
