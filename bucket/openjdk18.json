@@ -1,15 +1,15 @@
 {
-    "description": "Official production-ready open-source builds of OpenJDK 16",
-    "homepage": "https://jdk.java.net/16",
-    "version": "16.0.2-7",
+    "description": "Official production-ready open-source builds of OpenJDK 18",
+    "homepage": "https://jdk.java.net/18",
+    "version": "18-19-ea",
     "license": "GPL-2.0-only WITH Classpath-exception-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://download.java.net/java/GA/jdk16.0.2/d4a915d82b4c4fbb9bde534da945d746/7/GPL/openjdk-16.0.2_windows-x64_bin.zip",
-            "hash": "9df98be05fe674066cc39144467c47b1503cfa3de059c09cc4ccc3da9c253b9a"
+            "url": "https://download.java.net/java/early_access/jdk18/19/GPL/openjdk-18-ea+19_windows-x64_bin.zip",
+            "hash": "7774877321c01d81955febf33c0f66242f31deec7598cb5e15ce819fe376a2d1"
         }
     },
-    "extract_dir": "jdk-16.0.2",
+    "extract_dir": "jdk-18",
     "env_add_path": "bin",
     "env_set": {
         "JAVA_HOME": "$dir"
