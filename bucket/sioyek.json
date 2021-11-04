@@ -9,6 +9,7 @@
             "hash": "17efb1b65d8adbb503980ac5849d4422822d0f7f9db96077f800ed2e2944d35b"
         }
     },
+    "extract_dir": "sioyek-release-windows",
     "bin": "sioyek.exe",
     "persist": [
         "keys_user.config",
