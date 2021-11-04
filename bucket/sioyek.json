@@ -1,17 +1,15 @@
 {
     "homepage": "https://sioyek.info/",
-    "version": "0.31.6",
+    "version": "1.0.0",
     "license": "GPL-3.0",
     "description": "Sioyek is a PDF viewer designed for reading research papers and technical books.",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ahrm/sioyek/releases/download/v0.31.6/sioyek-release-windows-portable.zip",
-            "hash": "919f9b3622f5bbb99d156d63ca4326c09954c9efd5eeb3205c10060291424aa2"
+            "url": "https://github.com/ahrm/sioyek/releases/download/v1.0.0/sioyek-release-windows-portable.zip",
+            "hash": "17efb1b65d8adbb503980ac5849d4422822d0f7f9db96077f800ed2e2944d35b"
         }
     },
-    "bin": [
-        "sioyek.exe"
-    ],
+    "bin": "sioyek.exe",
     "persist": [
         "keys_user.config",
         "prefs_user.config"
