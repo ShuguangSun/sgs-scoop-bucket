@@ -11,8 +11,7 @@
         }
     },
     "bin": [
-        "pandoc.exe",
-        "pandoc-citeproc.exe"
+        "pandoc.exe"
     ],
     "checkver": {
         "github": "https://github.com/jgm/pandoc"
