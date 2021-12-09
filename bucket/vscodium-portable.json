@@ -1,12 +1,12 @@
 {
     "homepage": "https://github.com/VSCodium/vscodium",
-    "version": "1.62.3",
+    "version": "1.63.0",
     "license": "MIT",
     "description": "Binary releases of VS Code without MS branding/telemetry/licensing (Portable Edition).",
     "architecture": {
         "64bit": {
-            "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/VSCodium/vscodium/LatestRelease/VSCodium-win32-x64-1.62.3.zip",
-            "hash": "6cc6cf92b3c2afe5157a35f22535a724717caee6bc38c49e2a4cf5de924dc419"
+            "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/VSCodium/vscodium/LatestRelease/VSCodium-win32-x64-1.63.0.zip",
+            "hash": "6aeb7b592268f7a17d9a84d1c6dfbf732dbdbad87a2d5559ae49215aec90bc68"
         }
     },
     "notes": "Add VSCodium Portable as a context menu option by running: \"$dir\\vscodium-install-context.reg\"",
