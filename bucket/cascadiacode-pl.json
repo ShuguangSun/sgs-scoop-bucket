@@ -1,0 +1,13 @@
+{
+    "homepage": "https://github.com/microsoft/cascadia-code",
+    "description": "This is a fun, new monospaced font that includes programming ligatures and is designed to enhance the modern look and feel of the Windows Terminal. .",
+    "version": "2110.31",
+    "license": "OFL",
+    "url": "https://github.com/microsoft/cascadia-code/releases/download/v2110.31/CascadiaCode-2110.31.zip",
+    "hash": "b1a18b6b15818f5e5467f06363c963d7f373f26c41910284943076c064756fac",
+    "extract_dir": "ttf",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/microsoft/cascadia-code/releases/download/v$version/CascadiaCode-$version.zip"
+    }
+}
