@@ -1,0 +1,12 @@
+{
+    "homepage": "https://github.com/JetBrains/JetBrainsMono",
+    "version": "0.1",
+    "description": "JetBrains Mono – the free and open-source typeface for developers.",
+    "license": "OFL-1.1",
+    "url": "https://github.com/JetBrains/JetBrainsMono/releases/download/v2.242/JetBrainsMono-2.242.zip",
+    "hash": "c487d2ca8325067dfd1a0be3b52ff5074a6f4a3e848bdb56d5be0b66eb6bb5ca",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/JetBrains/JetBrainsMono/releases/download/v$version/JetBrainsMono-$version.zip"
+    }
+}

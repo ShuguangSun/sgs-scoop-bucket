@@ -1,0 +1,12 @@
+{
+    "homepage": "https://github.com/cormullion/juliamono",
+    "version": "0.001",
+    "description": "a monospaced font with reasonable Unicode support.",
+    "license": "OFL-1.1",
+    "url": "https://github.com/cormullion/juliamono/releases/download/v0.043/JuliaMono.zip",
+    "hash": "c487d2ca8325067dfd1a0be3b52ff5074a6f4a3e848bdb56d5be0b66eb6bb5ca",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/cormullion/juliamono/releases/download/v$version/JuliaMono.zip"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "homepage": "https://github.com/tonsky/FiraCode",
+    "version": "0.1",
+    "description": "Free monospaced font with programming ligatures.",
+    "license": "OFL-1.1",
+    "url": "https://github.com/tonsky/FiraCode/releases/download/0.1/Fira_Code_v0.1.zip",
+    "hash": "c487d2ca8325067dfd1a0be3b52ff5074a6f4a3e848bdb56d5be0b66eb6bb5ca",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/tonsky/FiraCode/releases/download/$version/Fira_Code_v$version.zip"
+    }
+}
