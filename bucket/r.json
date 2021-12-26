@@ -13,11 +13,6 @@
         }
     },
     "innosetup": true,
-    "bin": [
-        "bin\\curr_arch\\r.exe",
-        "bin\\curr_arch\\rterm.exe",
-        "bin\\curr_arch\\rscript.exe"
-    ],
     "shortcuts": [
         [
             "bin\\curr_arch\\Rgui.exe",

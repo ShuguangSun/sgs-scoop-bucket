@@ -9,6 +9,13 @@
     "architecture": {
         "64bit": {
             "pre_install": "Rename-Item \"$dir\\bin\\R,2.exe\" 'R.exe'",
+            "bin": [
+                "bin\\x64\\R.exe",
+                "bin\\x64\\Rcmd.exe",
+                "bin\\x64\\Rgui.exe",
+                "bin\\x64\\Rscript.exe",
+                "bin\\x64\\Rterm.exe"
+            ],
             "shortcuts": [
                 [
                     "bin\\x64\\Rgui.exe",
