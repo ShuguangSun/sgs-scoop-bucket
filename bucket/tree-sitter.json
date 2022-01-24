@@ -1,11 +1,11 @@
 {
     "homepage": "https://tree-sitter.github.io/tree-sitter/",
-    "version": "0.20.3",
+    "version": "0.20.4",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/tree-sitter/tree-sitter/releases/download/v0.20.3/tree-sitter-windows-x64.gz",
-            "hash": "62264da57da9d03f08bc6c17996dca5227511833c5843ec00c3d321e99163cf7"
+            "url": "https://github.com/tree-sitter/tree-sitter/releases/download/v0.20.4/tree-sitter-windows-x64.gz",
+            "hash": "4cebb2a439ee3615effa6f90a1357d491a079785d5055ad33d21dd098d51c1b9"
         }
     },
     "bin": "tree-sitter.exe",
