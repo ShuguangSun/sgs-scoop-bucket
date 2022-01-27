@@ -1,10 +1,10 @@
 {
     "homepage": "https://github.com/IBM/plex",
-    "version": "0.0.1",
+    "version": "6.0.0",
     "description": "The package of IBM's typeface, IBM Plex. (hrbrthemes)",
     "license": "OFL 1.1",
     "url": "https://github.com/IBM/plex/releases/download/v6.0.0/TrueType.zip",
-    "hash": "cab61bc7330c9b1be40eea082b5a11b573e19ea3509330bd3f2d9ffdadb9cd5b",
+    "hash": "16253500de140321175bb94e65fd227c6b12efc050eb298c20322dbf3713a8e0",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/IBM/plex/releases/download/v$version/TrueType.zip"
