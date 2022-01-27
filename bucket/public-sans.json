@@ -1,0 +1,12 @@
+{
+    "homepage": "https://github.com/uswds/public-sans",
+    "version": "0.0.1",
+    "description": "A strong, neutral, principles-driven, open source typeface for text or display. (hrbrthemes)",
+    "license": "CC0 1.0 and OFL 1.1",
+    "url": "https://github.com/uswds/public-sans/releases/download/v2.000/public-sans-v2.000.zip.zip",
+    "hash": "cab61bc7330c9b1be40eea082b5a11b573e19ea3509330bd3f2d9ffdadb9cd5b",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/uswds/public-sans/releases/download/v$version/public-sans-v$version.zip"
+    }
+}
