@@ -1,10 +1,10 @@
 {
     "homepage": "https://github.com/googlefonts/roboto",
-    "version": "0.0.1",
+    "version": "2.138",
     "description": "The Roboto family of fonts. (hrbrthemes)",
     "license": "Apache-2.0",
     "url": "https://github.com/googlefonts/roboto/releases/download/v2.138/roboto-unhinted.zip",
-    "hash": "cab61bc7330c9b1be40eea082b5a11b573e19ea3509330bd3f2d9ffdadb9cd5b",
+    "hash": "70f64c718510a601fbcf752aafe644314dacaeb85474dc689c89787c4a72a728",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/googlefonts/roboto/releases/download/v$version/roboto-unhinted.zip"
