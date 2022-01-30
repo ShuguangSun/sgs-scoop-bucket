@@ -1,13 +1,13 @@
 {
-    "version": "3.9.8.0",
+    "version": "3.9.10.0",
     "description": "Free, open-source and portable Python distribution for Windows",
     "homepage": "https://winpython.github.io/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://downloads.sourceforge.net/project/winpython/WinPython_3.9/3.9.8.0/WinPython64-3.9.8.0.exe#/dl.7z",
-            "hash": "71293ed6d029b74de1883046270f0d354e7272a65cab5acb7ca729b51e6abe06",
-            "extract_dir": "WPy64-3980\\python-3.9.8.amd64"
+            "url": "https://downloads.sourceforge.net/project/winpython/WinPython_3.9/3.9.10.0/WinPython64-3.9.10.0.exe#/dl.7z",
+            "hash": "09d197889b86062e9090fdc716bd16f5f604290cec3c68a0444eb7cd18f24f93",
+            "extract_dir": "WPy64-39100\\python-3.9.10.amd64"
         }
     },
     "bin": [
