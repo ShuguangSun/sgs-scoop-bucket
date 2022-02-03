@@ -1,12 +1,12 @@
 {
-    "version": "2022-01-28",
+    "version": "2022-02-03",
     "description": "Generates an index (or tag) file of language objects found in source files for many popular programming languages.",
     "homepage": "https://ctags.io",
     "license": "GPL-2.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/universal-ctags/ctags-win32/releases/download/2022-01-28/p5.9.20220116.0-24-ge00b6627/ctags-2022-01-28_p5.9.20220116.0-24-ge00b6627-x64.zip",
-            "hash": "fe2e2993b1e97ca60624704c70961d8479957ac489408749f0d0b4420a60b90a"
+            "url": "https://github.com/universal-ctags/ctags-win32/releases/download/2022-02-03/p5.9.20220130.0-4-gd00442e4/ctags-2022-02-03_p5.9.20220130.0-4-gd00442e4-x64.zip",
+            "hash": "0a5578d7f83b64d7489201f6f76d8a03b8525e2bf7e37ad28d3d04e30b65bd81"
         }
     },
     "bin": [
