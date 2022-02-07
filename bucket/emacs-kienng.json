@@ -5,8 +5,11 @@
     "license": "GPL (Emacs) + MIT (build script)",
     "url": "https://github.com/kiennq/emacs-build/releases/download/v0.220201.99c637499/emacs-master-x86_64-full.zip",
     "hash": "6a4c4b6bb7a51fe244076c04600e5f24aac93ea628156de218e65e29a9da6a77",
-    "checkver": "github",
+    "checkver": {
+        "url": "https://github.com/kiennq/emacs-build/releases/latest",
+        "regex": "/kiennq/emacs-build/releases/download/v(?<version>[\\d\\w.]+)/emacs-master-x86_64-full.zip
+    },
     "autoupdate": {
-        "url": "https://github.com/kiennq/emacs-build/releases/download/v$version/emacs-master-x86_64-full.zip"
+        "url": "https://github.com/kiennq/emacs-build/releases/download/v$matchVersion/emacs-master-x86_64-full.zip"
     }
 }
