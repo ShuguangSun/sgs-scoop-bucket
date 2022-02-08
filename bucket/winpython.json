@@ -1,5 +1,5 @@
 {
-    "version": "3.9.10.0",
+    "version": "3.9.8.0",
     "description": "Free, open-source and portable Python distribution for Windows",
     "homepage": "https://winpython.github.io/",
     "license": "MIT",
@@ -20,7 +20,7 @@
     ],
     "env_add_path": "scripts",
     "checkver": {
-        "github": "https://github.com/winpython/winpython/releases/latest",
+        "github": "https://github.com/winpython/winpython",
         "regex": "/download/(?<gitv>[\\d.]+)/Winpython64-(?<version>[\\d.]+)\\.exe",
         "reverse": true
     },
