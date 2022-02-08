@@ -20,14 +20,15 @@
     ],
     "env_add_path": "scripts",
     "checkver": {
-        "github": "https://github.com/winpython/winpython/",
-        "regex": "-([\\d.]+)\\.exe",
+        "github": "https://github.com/winpython/winpython/releases/latest",
+        "regex": "/download/(?<gitv>[\\d.]+)/Winpython64-(?<version>[\\d.]+)\\.exe",
         "reverse": true
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://downloads.sourceforge.net/project/winpython/WinPython_$majorVersion.$minorVersion/$version/WinPython64-$version.exe#/dl.7z",
+                "url": "https://github.com/winpython/winpython/releases/download/$matchGitv/Winpython64-$matchVersion.exe#/dl.7z",
+
                 "extract_dir": "WPy64-$cleanVersion\\python-$majorVersion.$minorVersion.$patchVersion.amd64"
             }
         },
