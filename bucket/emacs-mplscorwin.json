@@ -1,19 +1,19 @@
 {
     "homepage": "https://git.sr.ht/~mplscorwin/emacs-w64/",
-    "version": "0",
+    "version": "2022-02-07",
     "description": "Scripts to build a distribution of Emacs from sources, using MSYS2 and Mingw64(32).",
     "license": "GPL (Emacs) + MIT (build script)",
     "architecture": {
         "64bit": {
             "url": "https://git.sr.ht/~mplscorwin/emacs-w64/tree/master/item/emacs-29/emacs-29.0.50-snapshot-2022-02-07.zip",
-            "hash": "cdb122fc3085f3aa8286ae7d453f94066b3abd5c84181c2a7dfe701e8dc542da"
+            "hash": "sha1:dfc6306a86e0b10c27b324a85f7c51eff031727b"
         }
     },
     "shortcuts": [
         [
-        "bin\\runemacs.exe",
-        "Emacs (mplscorwin)"
-    ]
+            "bin\\runemacs.exe",
+            "Emacs (mplscorwin)"
+        ]
     ],
     "checkver": {
         "url": "https://git.sr.ht/~mplscorwin/emacs-w64/tree/master/item/emacs-29",
