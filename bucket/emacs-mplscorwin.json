@@ -11,7 +11,7 @@
     },
     "shortcuts": [
         [
-        "runemacs.exe",
+        "bin\\runemacs.exe",
         "Emacs (mplscorwin)"
     ]
     ],
