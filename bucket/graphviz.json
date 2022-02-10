@@ -1,12 +1,12 @@
 {
-    "version": "2.49.3",
+    "version": "2.50.0",
     "description": "Open source graph visualization software.",
     "homepage": "https://www.graphviz.org/",
     "license": "EPL-1.0",
     "architecture": {
         "64bit": {
-            "url": "https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/2.49.3/stable_windows_10_cmake_Release_x64_graphviz-install-2.49.3-win64.exe#/dl.7z",
-            "hash": "cab87543088c88631d9fe256b345279e8a7ae8bca90acf8c16d33ba53d39ae0c"
+            "url": "https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/2.50.0/windows_10_cmake_Release_graphviz-install-2.50.0-win64.exe#/dl.7z",
+            "hash": "cfdf55a6bae50d6d95695fb417ab7dff3320554649c3c82da3b8f3da7dd4d72c"
         }
     },
     "bin": [
