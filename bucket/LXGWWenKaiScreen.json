@@ -1,10 +1,10 @@
 {
-    "version": "1.112",
+    "version": "1.210",
     "description": "LXGW WenKai for Screen Reading. (Non-Auto Install)",
     "homepage": "https://github.com/lxgw/LxgwWenKai-Screen",
     "license": "OFL-1.1",
-    "url": "https://github.com/lxgw/LxgwWenKai-Screen/releases/download/v1.112/LXGWWenKaiScreen.ttf",
-    "hash": "2336ea5b6c89c2d21e84f1c12156e726f3c12459734bb7f24dc17e34e23fa366",
+    "url": "https://github.com/lxgw/LxgwWenKai-Screen/releases/download/v1.210/LXGWWenKaiScreen.ttf",
+    "hash": "010fd3e8958f26baf2fa44e64ff90df6635180baec39bcd642e7cd22a4235403",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/lxgw/LxgwWenKai-Screen/releases/download/v$version/LXGWWenKaiScreen.ttf"
