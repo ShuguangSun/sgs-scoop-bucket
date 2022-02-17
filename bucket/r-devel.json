@@ -47,7 +47,7 @@
         "regex": "(r\\d+)"
     },
     "autoupdate": {
-        "url": "http://mirrors.aliyun.com/CRAN/bin/windows/base/R-devel-win.exe"
+        "url": "http://mirrors.aliyun.com/CRAN/bin/windows/base/R-devel-win.exe",
         "hash": {
             "url": "$baseurl/md5sum.txt.R-devel"
         }
