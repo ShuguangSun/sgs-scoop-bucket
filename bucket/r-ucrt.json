@@ -1,11 +1,11 @@
 {
     "homepage": "https://www.r-project.org",
-    "version": "81834-5038-5032",
+    "version": "81842-5038-5032",
     "license": "GPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://www.r-project.org/nosvn/winutf8/ucrt3/R-devel-win-81834-5038-5032.exe",
-            "hash": "4857a361e6ea9d6f5911413fcaa4175fa2a4cc81ff4cd0d76355a32f9e9ce3d6",
+            "url": "https://www.r-project.org/nosvn/winutf8/ucrt3/R-devel-win-81842-5038-5032.exe",
+            "hash": "6cfa689217dd5c0eb4be726c234456025d5c8458ccb4fc32b54f7101f5470af4",
             "pre_install": [
                 "copy-item -recurse \"$dir\\bin\\x64\" \"$dir\\bin\\curr_arch\"",
                 "Rename-Item \"$dir\\bin\\R,2.exe\" 'R.exe'"
