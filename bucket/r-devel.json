@@ -4,7 +4,7 @@
     "version": "r81849",
     "license": "GPL-2.0-only",
     "url": "http://mirrors.aliyun.com/CRAN/bin/windows/base/R-devel-win.exe",
-    "hash": "md5:47e24e9d7332d10bf34369a6ff71fd9c",
+    "hash": "md5:a90922c261f95931d6b4e40849a914c2",
     "innosetup": true,
     "architecture": {
         "64bit": {
@@ -43,7 +43,7 @@
         "Annoying, right?! You might want to check out Pshazz (scoop install pshazz)--this has a plugin to remove some crazy aliases from Powershell, as well as many other improvements."
     ],
     "checkver": {
-        "url": "https://cran.r-project.org/bin/windows/base/rdevel.html",
+        "url": "http://mirrors.aliyun.com/CRAN/bin/windows/base/rdevel.html",
         "regex": "(r\\d+)"
     },
     "autoupdate": {
