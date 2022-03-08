@@ -4,8 +4,8 @@
     "homepage": "https://github.com/lxgw/LxgwNewClearGothic",
     "license": "IPA Font License 1.0",
     "url": [
-        "https://github.com/lxgw/LxgwNewClearGothic/releases/download/v0.235/LXGWFasmartGothic.ttf"
-        "https://github.com/lxgw/LxgwNewClearGothic/releases/download/v0.235/LXGWNewClearGothic-Book.ttf"
+        "https://github.com/lxgw/LxgwNewClearGothic/releases/download/v0.235/LXGWFasmartGothic.ttf",
+        "https://github.com/lxgw/LxgwNewClearGothic/releases/download/v0.235/LXGWNewClearGothic-Book.ttf",
         "https://github.com/lxgw/LxgwNewClearGothic/releases/download/v0.235/LXGWNewClearGothic-Regular.ttf"
     ],
     "hash": [
@@ -16,8 +16,8 @@
     "checkver": "github",
     "autoupdate": {
         "url": [
-            "https://github.com/lxgw/LxgwNewClearGothic/releases/download/v$version/LXGWFasmartGothic.ttf"
-            "https://github.com/lxgw/LxgwNewClearGothic/releases/download/v$version/LXGWNewClearGothic-Book.ttf"
+            "https://github.com/lxgw/LxgwNewClearGothic/releases/download/v$version/LXGWFasmartGothic.ttf",
+            "https://github.com/lxgw/LxgwNewClearGothic/releases/download/v$version/LXGWNewClearGothic-Book.ttf",
             "https://github.com/lxgw/LxgwNewClearGothic/releases/download/v$version/LXGWNewClearGothic-Regular.ttf"
         ]
     }
