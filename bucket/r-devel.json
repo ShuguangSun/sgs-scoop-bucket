@@ -43,13 +43,13 @@
         "Annoying, right?! You might want to check out Pshazz (scoop install pshazz)--this has a plugin to remove some crazy aliases from Powershell, as well as many other improvements."
     ],
     "checkver": {
-        "url": "http://mirrors.aliyun.com/CRAN/bin/windows/base/rdevel.html",
+        "url": "https://cran.r-project.org/bin/windows/base/rdevel.html",
         "regex": "(r\\d+)"
     },
     "autoupdate": {
         "url": "http://mirrors.aliyun.com/CRAN/bin/windows/base/R-devel-win.exe",
         "hash": {
-            "url": "$baseurl/md5sum.txt.R-devel"
+            "url": "https://cran.r-project.org/bin/windows/base/md5sum.R-devel.txt"
         }
     }
 }
