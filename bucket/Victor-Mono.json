@@ -1,0 +1,15 @@
+{
+    "version": "1.5.2",
+    "description": "Programming font with optional semi-connected cursive italics, symbol ligatures and Latin, Cyrillic and Greek characters",
+    "homepage": "https://rubjo.github.io/victor-mono",
+    "license": "MIT",
+    "url": "https://rubjo.github.io/victor-mono/VictorMonoAll.zip",
+    "hash": "090cbcf1d95f147da981173f30d481386ae065480dfe150d8a0a287fb0bcc256",
+    "extract_dir": "OTF",
+    "checkver": {
+        "github": "https://github.com/rubjo/victor-mono"
+    },
+    "autoupdate": {
+        "url": "https://rubjo.github.io/victor-mono/VictorMonoAll.zip"
+    }
+}
