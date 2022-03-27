@@ -1,0 +1,12 @@
+{
+    "homepage": "https://github.com/madmalik/mononoki",
+    "version": "0",
+    "description": "Mononoki typeface.",
+    "license": "OFL-1.1",
+    "url": "https://github.com/madmalik/mononoki/releases/download/1.3/mononoki.zip",
+    "hash": "4bb10d12681546fa129f9105706d6f55c346b75418a19793fb300f0bd4e5991d",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/madmalik/mononoki/releases/download/$version/mononoki.zip"
+    }
+}
