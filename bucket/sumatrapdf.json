@@ -5,7 +5,7 @@
     "license": "GPL-3.0-only,BSD-2-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://kjkpubsf.sfo2.digitaloceanspaces.com/software/sumatrapdf/prerel/14402/SumatraPDF-prerel-64.exe",
+            "url": "https://www.sumatrapdfreader.org/dl/prerel/14402/SumatraPDF-prerel-64.exe",
             "hash": "9676e22e6518e042a1d147161a072f5e5cb2569bef39e3306fd7717396378596"
         }
     },
@@ -36,7 +36,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://kjkpubsf.sfo2.digitaloceanspaces.com/software/sumatrapdf/prerel/$version$matchMinor/SumatraPDF-prerel-64.exe"
+                "url": "https://www.sumatrapdfreader.org/dl/prerel/14420/$version$matchMinor/SumatraPDF-prerel-64.exe"
             }
         }
     }
