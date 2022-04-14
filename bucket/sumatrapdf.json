@@ -31,12 +31,12 @@
     ],
     "checkver": {
         "url": "https://kjkpubsf.sfo2.digitaloceanspaces.com/software/sumatrapdf/sumatralatest.js",
-        "regex": "var sumLatestVer = (?<version>[\\d\\.]+)(?<minor>[\\d][\\d]);"
+        "regex": "var sumLatestVer = (?<version>[\\d\\.]+);"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://www.sumatrapdfreader.org/dl/prerel/14420/$version$matchMinor/SumatraPDF-prerel-64.exe"
+                "url": "https://www.sumatrapdfreader.org/dl/prerel/$version/SumatraPDF-prerel-64.exe"
             }
         }
     }
