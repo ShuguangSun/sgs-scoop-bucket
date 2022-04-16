@@ -1,5 +1,5 @@
 {
-    "version": "8.2.4751",
+    "version": "8.2.4755",
     "description": "A highly configurable text editor for efficiently creating and changing any kind of text.",
     "homepage": "https://www.vim.org",
     "license": "Vim",
@@ -9,12 +9,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/vim/vim-win32-installer/releases/download/v8.2.4751/gvim_8.2.4751_x64.zip",
-            "hash": "759dbcaf5d835d17e1a8c6d9773c961499ed7823c8f9cfec92639d12d9c38284"
+            "url": "https://github.com/vim/vim-win32-installer/releases/download/v8.2.4755/gvim_8.2.4755_x64.zip",
+            "hash": "2766f1983a42bb9a0571810211dd5c0efb72f4314b9b9f2f52b771d68e2ebd05"
         },
         "32bit": {
-            "url": "https://github.com/vim/vim-win32-installer/releases/download/v8.2.4751/gvim_8.2.4751_x86.zip",
-            "hash": "061b13eab8c22c45ca331cb924e007bfd03f679c84795ed2d61f23b600ea9783"
+            "url": "https://github.com/vim/vim-win32-installer/releases/download/v8.2.4755/gvim_8.2.4755_x86.zip",
+            "hash": "64cddb784da95519c1509a9b098d08631dd30da8f3c62177e228a8dbc12fa5f7"
         }
     },
     "extract_dir": "vim\\vim82",
