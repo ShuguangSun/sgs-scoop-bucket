@@ -1,12 +1,12 @@
 {
-    "version": "14468",
+    "version": "14469",
     "description": "Free PDF, eBook reader.",
     "homepage": "https://www.sumatrapdfreader.org",
     "license": "GPL-3.0-only,BSD-2-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://www.sumatrapdfreader.org/dl/prerel/14468/SumatraPDF-prerel-64.exe",
-            "hash": "df14b0c87ad090f5ae75e1e1d3ed2d383cb0404120d372f1991bc1484bdc45ac"
+            "url": "https://www.sumatrapdfreader.org/dl/prerel/14469/SumatraPDF-prerel-64.exe",
+            "hash": "c82bbbef6180365cce00833e5980d272e6660407b747fdee1bf0b8d1f6f6126f"
         }
     },
     "pre_install": [
