@@ -1,12 +1,12 @@
 {
-    "version": "2.35.3.windows.1",
+    "version": "2.36.0.windows.1",
     "description": "Distributed version control system",
     "homepage": "https://gitforwindows.org",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/git-for-windows/git/LatestRelease/PortableGit-2.35.3-64-bit.7z.exe#/dl.7z",
-            "hash": "53091932db9ed386a667a4b11b5760bb8eb2d44d556b67cb94fa2766daa37182"
+            "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/git-for-windows/git/LatestRelease/PortableGit-2.36.0-64-bit.7z.exe#/dl.7z",
+            "hash": "2257df41991f07c33176e2af8240181dab44cc713afe0fd95a0e12964fc46bda"
         }
     },
     "post_install": "git config --global credential.helper manager",
