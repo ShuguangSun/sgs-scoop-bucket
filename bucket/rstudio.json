@@ -1,14 +1,14 @@
 {
     "version": "2022.02.1+461",
-    "description": "An IDE for R with console, syntax-highlighting, editor that supports direct code execution, as well as tools for plotting, history, debugging and workspace management.",
-    "homepage": "https://www.rstudio.com",
+    "homepage": "https://www.rstudio.com/",
+    "description": "An IDE for R, which includes a console, syntax-highlighting editor that supports direct code execution, as well as tools for plotting, history, debugging and workspace management.",
     "license": "AGPL-3.0-only",
     "notes": "For 32bit, please install 'versions/rstudio11",
     "depends": "r",
     "architecture": {
         "64bit": {
-            "url": "https://s3.amazonaws.com/rstudio-ide-build/desktop/windows/RStudio-2022.02.1-461.exe#/dl.7z",
-            "hash": "b14149b1fc8bb3d78a04657f0a7e372a7460376620ae04b87124cd28ea260d57"
+            "url": "https://s3.amazonaws.com/rstudio-ide-build/desktop/windows/RStudio-2022.02.1-461.zip",
+            "hash": "ca89188042c3da924d25700a4a9a3090250bc4799aa6da806cd1bde7b7b1bb9f"
         }
     },
     "bin": [
@@ -25,18 +25,18 @@
     ],
     "checkver": {
         "url": "https://www.rstudio.com/products/rstudio/download/preview/",
-        "regex": "windows/RStudio-([\\d.]+)-(\\d+)\\.exe",
-        "replace": "${1}+${2}"
+        "regex": "RStudio (?<date>[\\d.]+)(?<type>-(daily|preview))?(?:&#43;)(?<build>\\d+) - Windows",
+        "replace": "${date}${type}+${build}"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://s3.amazonaws.com/rstudio-ide-build/desktop/windows/RStudio-$match1-$match2.exe#/dl.7z",
-                "hash": {
-                    "url": "https://www.rstudio.com/products/rstudio/download/preview/",
-                    "regex": "(?s)/windows/.*?exe.*?$sha256"
-                }
+                "url": "https://s3.amazonaws.com/rstudio-ide-build/desktop/windows/RStudio-$matchDate$matchType-$matchBuild.zip"
             }
+        },
+        "hash": {
+            "url": "https://www.rstudio.com/products/rstudio/download/preview/",
+            "find": "(?s)$url.*?data-content=\"$sha256\""
         }
     }
 }
