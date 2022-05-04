@@ -37,7 +37,7 @@
     ],
     "checkver": {
         "url": "https://mirrors.aliyun.com/CRAN/bin/windows/base/",
-        "regex": "<h1>R-([\\d.]+)"
+        "regex": "R-([\\d.]+)-win.exe"
     },
     "autoupdate": {
         "architecture": {
