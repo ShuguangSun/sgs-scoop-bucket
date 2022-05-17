@@ -7,7 +7,7 @@
     "hash": "553b3e1da4a35396993a755b952b573ec466c4f47a6b4efa07e0636cd65b2600",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/be5invis/Iosevka/LatestRelease/super-ttc-iosevka-$version.zip"
+        "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/be5invis/Iosevka/LatestRelease/super-ttc-iosevka-$version.zip",
         "hash": {
             "url": "https://github.com/be5invis/Iosevka/blob/master/doc/packages-sha.txt",
             "regex": "$basename\\s+"
