@@ -1,0 +1,11 @@
+{
+    "version": "0",
+    "license": "MIT",
+    "homepage": "https://github.com/Wilfred/difftastic",
+    "url": "https://github.com/IBM/plex/releases/download/v6.0.2/OpenType.zip",
+    "hash": "a75f78b0267f03a2e99edf59ac9bf18ef5899ad27e6988b6c697707f44c81a7f",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/Wilfred/difftastic/releases/download/$version/difft-x86_64-pc-windows-msvc.zip"
+    }
+}
