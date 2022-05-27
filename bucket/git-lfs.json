@@ -23,12 +23,12 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/git-lfs/git-lfs/LatestRelease/git-lfs-windows-amd64-v$version.zip",
-                "extract_dir": "git-lfs-$version"
+                "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/git-lfs/git-lfs/LatestRelease/git-lfs-windows-amd64-v$version.zip"
             }
         },
         "hash": {
             "url": "https://github.com/git-lfs/git-lfs/releases/download/v$version/sha256sums.asc"
-        }
+        },
+        "extract_dir": "git-lfs-$version"
     }
 }
