@@ -1,12 +1,12 @@
 {
     "homepage": "https://nodejs.org",
-    "version": "17.9.0",
+    "version": "18.3.0",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://mirrors.aliyun.com/nodejs-release/v17.9.0/node-v17.9.0-win-x64.7z",
-            "hash": "6fedf28770d956939e79449679cb196ceecccfdcbf7f9dc816103e5b824c44aa",
-            "extract_dir": "node-v17.9.0-win-x64"
+            "url": "https://mirrors.aliyun.com/nodejs-release/v18.3.0/node-v18.3.0-win-x64.7z",
+            "hash": "588e579934780d7260b8aba6e80576b208f951eb75872abcb0f1a0b757698916",
+            "extract_dir": "node-v18.3.0-win-x64"
         }
     },
     "persist": [
