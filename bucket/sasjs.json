@@ -1,0 +1,11 @@
+{
+    "version": "0",
+    "license": "MIT",
+    "homepage": "https://github.com/sasjs/server",
+    "url": "https://github.com/sasjs/server/releases/download/v0.3.7/windows.zip",
+    "hash": "04f183575384e16151a56f89a6c2c4feaa585546457fa7fe16acbf78b6376d91",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/sasjs/server/releases/download/v$version/windows.zip"
+    }
+}
