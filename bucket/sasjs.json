@@ -4,6 +4,10 @@
     "homepage": "https://github.com/sasjs/server",
     "url": "https://github.com/sasjs/server/releases/download/v0.3.7/windows.zip",
     "hash": "02bc06db94ca8e88132dc543f8e766c7ca0cbe860eed6fa8083de16738e1e304",
+    "persist": [
+        "sasjs_root",
+        ".env"
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/sasjs/server/releases/download/v$version/windows.zip"
