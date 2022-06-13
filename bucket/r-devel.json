@@ -49,7 +49,8 @@
     "autoupdate": {
         "url": "http://mirrors.aliyun.com/CRAN/bin/windows/base/R-devel-win.exe",
         "hash": {
-            "url": "http://mirrors.aliyun.com/CRAN/bin/windows/base/md5sum.R-devel.txt"
+            "url": "http://mirrors.aliyun.com/CRAN/bin/windows/base/md5sum.R-devel.txt",
+            "regex": "$md5"
         }
     }
 }
