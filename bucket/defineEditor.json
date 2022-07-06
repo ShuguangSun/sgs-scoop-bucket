@@ -9,6 +9,6 @@
         "github": "https://github.com/defineEditor/editor"
     },
     "autoupdate": {
-        "url": "https://github.com/defineEditor/editor/releases/download/v$version/DefineEditor.$version.exe"
+        "url": "https://github.com/defineEditor/editor/releases/download/v$version/DefineEditor.$version-current.exe"
     }
 }
