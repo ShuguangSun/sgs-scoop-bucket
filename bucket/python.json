@@ -7,6 +7,10 @@
         "64bit": {
             "url": "https://npm.taobao.org/mirrors/python/3.10.4/python-3.10.4-amd64.exe#/setup.exe",
             "hash": "md5:53fea6cfcce86fb87253364990f22109"
+        },
+        "32bit": {
+            "url": "https://npm.taobao.org/mirrors/python/3.10.4/python-3.10.4.exe#/setup.exe",
+            "hash": "md5:977b91d2e0727952d5e8e4ff07eee34e"
         }
     },
     "installer": {
@@ -56,6 +60,9 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
+                "url": "https://registry.npmmirror.com/-/binary/python/$version/python-$version-amd64.exe"
+            },
+            "32bit": {
                 "url": "https://registry.npmmirror.com/-/binary/python/$version/python-$version.exe"
             }
         },
