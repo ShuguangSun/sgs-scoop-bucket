@@ -8,7 +8,13 @@
     "checkver": {
         "github": "https://github.com/defineEditor/editor"
     },
+    "shortcuts": [
+        [
+        "DefineEditor.exe",
+        "DefineEditor"
+    ]
+    ],
     "autoupdate": {
-        "url": "https://github.com/defineEditor/editor/releases/download/v$version-current/DefineEditor.$version-current.exe"
+        "url": "https://github.com/defineEditor/editor/releases/download/v$version-current/DefineEditor.$version-current.exe#/DefineEditor.exe"
     }
 }
