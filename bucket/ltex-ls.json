@@ -1,0 +1,20 @@
+{
+    "homepage": "https://github.com/valentjn/ltex-ls",
+    "version": "15.1.0",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/valentjn/ltex-ls/releases/download/15.2.0/ltex-ls-15.2.0-windows-x64.zip",
+            "hash": "6c34a5babc156dcb9cbd13678c58486dfb6f1998ccdb3bba819b0d2986c49e80"
+        }
+    },
+    "bin": "tree-sitter.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/valentjn/ltex-ls/releases/download/$version/ltex-ls-$version-windows-x64.zip"
+            }
+        }
+    }
+}
