@@ -55,7 +55,7 @@
     ],
     "checkver": {
         "url": "https://www.python.org/downloads/windows/",
-        "regex": "href=\"/downloads/release/python-([\\d.]+)/\">Latest Python 3 Release"
+        "regex": "Latest Python 3 Release - Python ([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
