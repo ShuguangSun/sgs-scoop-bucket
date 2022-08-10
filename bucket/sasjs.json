@@ -1,9 +1,9 @@
 {
-    "version": "0.15.1",
+    "version": "0.15.2",
     "license": "MIT",
     "homepage": "https://github.com/sasjs/server",
-    "url": "https://github.com/sasjs/server/releases/download/v0.15.1/windows.zip",
-    "hash": "f9a02bbe4661c2f7cab352f85a2b5a32a49c54fa077923bf0a3f80266bd19d39",
+    "url": "https://github.com/sasjs/server/releases/download/v0.15.2/windows.zip",
+    "hash": "fce7120f5179e1c6d475064b6fc9b495db13bf8b0a110a7d31ad507ae719dd40",
     "persist": [
         "sasjs_root",
         ".env"
