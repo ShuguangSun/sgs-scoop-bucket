@@ -1,33 +1,59 @@
 {
-    "homepage": "https://www.python.org/",
-    "description": "A programming language that lets you work quickly and integrate systems more effectively.",
-    "license": "Python-2.0",
     "version": "3.10.6",
+    "description": "A programming language that lets you work quickly and integrate systems more effectively.",
+    "homepage": "https://www.python.org/",
+    "license": "Python-2.0",
+    "notes": "Allow applications and third-party installers to find python by running: \"$dir\\install-pep-514.reg\"",
     "architecture": {
         "64bit": {
-            "url": "https://registry.npmmirror.com/-/binary/python/3.10.6/python-3.10.6-amd64.exe",
+            "url": "https://registry.npmmirror.com/-/binary/python/3.10.6/python-3.10.6-amd64.exe#/setup.exe",
             "hash": "md5:8f46453e68ef38e5544a76d84df3994c"
         },
         "32bit": {
-            "url": "https://registry.npmmirror.com/-/binary/python/3.10.6/python-3.10.6.exe",
+            "url": "https://registry.npmmirror.com/-/binary/python/3.10.6/python-3.10.6.exe#/setup.exe",
             "hash": "md5:c4aa2cd7d62304c804e45a51696f2a88"
         }
     },
+    "pre_install": [
+        "$py_root = \"$dir\".Replace('\\', '\\\\')",
+        "$bit = '64'",
+        "if ($architecture -eq '32bit') { $bit = '32' }",
+        "'install-pep-514.reg', 'uninstall-pep-514.reg' | ForEach-Object {",
+        "    $py_version = ($version -split '\\.')[0..1] -join '.'",
+        "    $content = Get-Content \"$bucketsdir\\main\\scripts\\python\\$_\"",
+        "    $content = $content.Replace('$py_root', $py_root)",
+        "    $content = $content.Replace('$py_version', $py_version)",
+        "    $content = $content.Replace('$py_fullversion', $version)",
+        "    $content = $content.Replace('$py_cleanVersion', $version -replace '\\.')",
+        "    $content = $content.Replace('$py_arch', \"$bit\")",
+        "    if ($global) {",
+        "       $content = $content.Replace('HKEY_CURRENT_USER', 'HKEY_LOCAL_MACHINE')",
+        "    }",
+        "    Set-Content \"$dir\\$_\" $content -Encoding Ascii",
+        "}"
+    ],
     "installer": {
         "script": [
             "Expand-DarkArchive \"$dir\\setup.exe\" \"$dir\\_tmp\"",
-            "@('launcher.msi', 'path.msi', 'pip.msi') | ForEach-Object {",
+            "@('path.msi', 'pip.msi') | ForEach-Object {",
             "    Remove-Item \"$dir\\_tmp\\AttachedContainer\\$_\"",
             "}",
-            "(Get-ChildItem \"$dir\\_tmp\\AttachedContainer\\*.msi\").FullName | ForEach-Object { Expand-MsiArchive $_ \"$dir\" }",
+            "(Get-ChildItem \"$dir\\_tmp\\AttachedContainer\\*.msi\").FullName | ForEach-Object {",
+            "    # appendpath.msi does not contain any file, which causes 'msiexec /a' to fail",
+            "    if($((Get-Item $_).Basename) -eq 'appendpath') { return }",
+            "    Expand-MsiArchive $_ \"$dir\" ",
+            "}",
             "Remove-Item \"$dir\\_tmp\", \"$dir\\setup.exe\" -Force -Recurse",
-            "& \"$dir\\python.exe\" -E -s -m ensurepip -U --default-pip | Out-Null",
             "if ($global) {",
             "    $pathext = (env 'PATHEXT' $true) -replace ';.PYW?', ''",
             "    env 'PATHEXT' $true \"$pathext;.PY;.PYW\"",
             "}"
         ]
     },
+    "post_install": [
+        "python -E -s -m ensurepip -U --default-pip | Out-Null",
+        "Write-Output \"$([char]0x1b)[0m\" # Reset ansi to prevent color leak from installer"
+    ],
     "uninstaller": {
         "script": [
             "if ($global) {",
@@ -37,8 +63,6 @@
         ]
     },
     "bin": [
-        "python.exe",
-        "pythonw.exe",
         [
             "python.exe",
             "python3"
@@ -53,6 +77,10 @@
         "Scripts",
         "."
     ],
+    "persist": [
+        "Scripts",
+        "Lib\\site-packages"
+    ],
     "checkver": {
         "url": "https://www.python.org/downloads/windows/",
         "regex": "Latest Python 3 Release - Python ([\\d.]+)"
@@ -60,10 +88,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://registry.npmmirror.com/-/binary/python/$version/python-$version-amd64.exe"
+                "url": "https://registry.npmmirror.com/-/binary/python/$version/python-$version-amd64.exe#/setup.exe"
             },
             "32bit": {
-                "url": "https://registry.npmmirror.com/-/binary/python/$version/python-$version.exe"
+                "url": "https://registry.npmmirror.com/-/binary/python/$version/python-$version.exe#/setup.exe"
             }
         },
         "hash": {
