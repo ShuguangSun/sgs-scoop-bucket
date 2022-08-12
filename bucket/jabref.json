@@ -4,7 +4,7 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://builds.jabref.org/main/JabRef-5.7-portable_windows.zip",
+            "url": "https://builds.jabref.org/main/JabRef-5.8-portable_windows.zip",
             "hash": "fb497daf5359ca80938f263bb48b284051e7cf5b4d8724cdbea97a157754c131",
             "extract_dir": "Jabref"
         }
@@ -18,7 +18,7 @@
     ],
     "checkver": {
         "url": "https://builds.jabref.org/main/",
-        "regex": "(?<file>JabRef-5.7-portable_windows.zip)</a></td><td class=\"fb-d\">(?<version>[\\d-]+) (?:[\\d:]+)</td>"
+        "regex": "(?<file>JabRef-5.8-portable_windows.zip)</a></td><td class=\"fb-d\">(?<version>[\\d-]+) (?:[\\d:]+)</td>"
     },
     "autoupdate": {
         "architecture": {
