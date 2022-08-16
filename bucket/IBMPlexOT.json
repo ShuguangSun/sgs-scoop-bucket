@@ -1,9 +1,9 @@
 {
-    "version": "6.0.2",
+    "version": "6.1.0",
     "license": "OFL-1.1",
     "homepage": "https://github.com/IBM/plex",
-    "url": "https://github.com/IBM/plex/releases/download/v6.0.2/OpenType.zip",
-    "hash": "a75f78b0267f03a2e99edf59ac9bf18ef5899ad27e6988b6c697707f44c81a7f",
+    "url": "https://github.com/IBM/plex/releases/download/v6.1.0/OpenType.zip",
+    "hash": "957b90e8ff720f20e8fec885335c2b6798f566f42946c0cff727162205034be5",
     "extract_dir": "OpenType",
     "checkver": "github",
     "autoupdate": {
