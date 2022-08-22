@@ -1,12 +1,12 @@
 {
     "homepage": "https://github.com/kiennq/emacs-build",
-    "version": "0.220822.e154ba196",
+    "version": "0.220822.a680a9fc6",
     "description": "Scripts to build a distribution of Emacs from sources, using MSYS2 and Mingw64(32).",
     "license": "GPL (Emacs) + MIT (build script)",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/kiennq/emacs-build/releases/download/v0.220822.e154ba196/emacs-master-x86_64-full.zip",
-            "hash": "048cd30b90fe54363fa7ef7325147c446329e60f9a18b94ca6cdc973efb8eb03"
+            "url": "https://github.com/kiennq/emacs-build/releases/download/v0.220822.a680a9fc6/emacs-master-x86_64-full.zip",
+            "hash": "d7d13f9460d00cb503233968f7b771b3c588616477d92b8559f4e1ec7fff3a84"
         }
     },
     "shortcuts": [
