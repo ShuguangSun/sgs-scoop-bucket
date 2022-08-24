@@ -12,6 +12,6 @@
         "github": "https://github.com/simonmichael/hledger"
     },
     "autoupdate": {
-        "url": "https://github.com/simonmichael/hledger/releases/download/$version/hledger-windows.zip"
+        "url": "https://github.com/simonmichael/hledger/releases/download/$version/hledger-windows-x64.zip"
     }
 }

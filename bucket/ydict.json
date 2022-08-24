@@ -16,7 +16,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/TimothyYe/ydict/releases/download/v$version/ydict-win64-$version.tar.gz"
+                "url": "https://github.com/TimothyYe/ydict/releases/download/v$version/ydict_$version_Windows_x86_64.tar.gz"
             }
         }
     }

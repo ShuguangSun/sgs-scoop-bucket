@@ -18,8 +18,8 @@
         ]
     ],
     "checkver": {
-        "url": "https://mupdf.com/downloads/",
-        "regex": "mupdf-([\\d.]+)-windows\\.zip\""
+        "url": "https://mupdf.com/releases/index.html",
+        "regex": "mupdf-([\\d.]+)-windows\\.zip"
     },
     "autoupdate": {
         "url": "https://mupdf.com/downloads/archive/mupdf-$version-windows.zip",
