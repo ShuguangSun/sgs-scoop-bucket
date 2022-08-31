@@ -1,0 +1,12 @@
+{
+    "homepage": "https://github.com/aleksaan/diskusage",
+    "version": "0.1",
+    "description": "Duck is a very fast utility to find largest directories or files. (diskusage)",
+    "license": "MIT",
+    "url": "https://github.com/aleksaan/diskusage/releases/download/v2.8.0/v2.8.0_windows_amd64_duck.zip",
+    "hash": "6fdc07cce10b0f4089253962adc6df108c25241c36ef202d3bfbafd426d7f2f5",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/aleksaan/diskusage/releases/download/v$version/v$version_windows_amd64_duck.zip"
+    }
+}
