@@ -6,19 +6,23 @@
         "64bit": {
             "url": "https://mirrors.aliyun.com/CRAN/bin/windows/base/R-4.2.1-win.exe",
             "hash": "2cb06eed5b5d4fd6517185731c662ec3a27f10744572acdeeb707c34dab7c6bc",
-            "pre_install": [
-                "copy-item -recurse \"$dir\\bin\\x64\" \"$dir\\bin\\curr_arch\"",
-                "Rename-Item \"$dir\\bin\\R,2.exe\" 'R.exe'"
+            "pre_install": "Rename-Item \"$dir\\bin\\R,2.exe\" 'R.exe'",
+            "bin": [
+                "bin\\x64\\R.exe",
+                "bin\\x64\\Rcmd.exe",
+                "bin\\x64\\Rgui.exe",
+                "bin\\x64\\Rscript.exe",
+                "bin\\x64\\Rterm.exe"
+            ],
+            "shortcuts": [
+                [
+                "bin\\curr_arch\\Rgui.exe",
+                "Rgui"
             ]
+            ],
         }
     },
     "innosetup": true,
-    "shortcuts": [
-        [
-            "bin\\curr_arch\\Rgui.exe",
-            "Rgui"
-        ]
-    ],
     "installer": {
         "script": [
             "Remove-Item \"$dir\\bin\\R,*.exe\" -Force",
