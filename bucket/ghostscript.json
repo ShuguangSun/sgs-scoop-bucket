@@ -1,12 +1,12 @@
 {
     "homepage": "https://www.ghostscript.com",
-    "version": "9.56.1",
+    "version": "10.0.0",
     "description": "An interpreter for the PostScript language and for PDF.",
     "license": "AGPL-3.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs9561/gs9561w64.exe#/dl.7z",
-            "hash": "sha512:a371ac4814b9674df88c0b2834dd16830b0310c620a2289540dc953f06d65849531e1ff266817e3f05e87163e6f007a733150731dbf5af270f4ac1a649b093de",
+            "url": "https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs1000/gs1000w64.exe#/dl.7z",
+            "hash": "a7a446388447e716ee3e2e1eee840b0c80e5549a0fa1fc2b069bd887b9105b24",
             "bin": [
                 "bin\\gswin64.exe",
                 "bin\\gswin64c.exe",
@@ -17,8 +17,8 @@
             ]
         },
         "32bit": {
-            "url": "https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs9561/gs9561w32.exe#/dl.7z",
-            "hash": "sha512:0e0478f25e10beebec4279fc8c2b4707ebd23cf4d6b1fd590758f2af2dc2e228161f648c21bfe32226937fccf6aa770ce82683144982696a9e47263f5d060edd",
+            "url": "https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs1000/gs1000w32.exe#/dl.7z",
+            "hash": "7b7d6a2786ce2b8f91a5f0295d82f2678304bf0bf9aa5501b6f98f90cd98520f",
             "bin": [
                 "bin\\gswin32.exe",
                 "bin\\gswin32c.exe",
