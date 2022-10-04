@@ -5,11 +5,11 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://mirrors.tuna.tsinghua.edu.cn/julia-releases/bin/winnt/x64/1.8/julia-1.8.2-win64.exe",
-            "hash": "248af521126dcf25364abe9e6bb875df836da232b9408e49dcdbfe8105054557"
+            "url": "https://mirrors.tuna.tsinghua.edu.cn/julia-releases/bin/winnt/x64/1.8/julia-1.8.2-win64.zip",
+            "hash": "2529facaa5975cc43642715289d9745c21d84adb9579a4018f9bfad9057f4e8e",
+            "extract_dir": "julia-1.8.2"
         }
     },
-    "innosetup": true,
     "bin": "bin\\julia.exe",
     "checkver": {
         "url": "https://julialang.org/downloads/",
@@ -18,7 +18,8 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://mirrors.tuna.tsinghua.edu.cn/julia-releases/bin/winnt/x64/$majorVersion.$minorVersion/julia-$version-win64.exe"
+                "url": "https://mirrors.tuna.tsinghua.edu.cn/julia-releases/bin/winnt/x64/$majorVersion.$minorVersion/julia-$version-win64.zip",
+                "extract_dir": "julia-$version"
             }
         },
         "hash": {
