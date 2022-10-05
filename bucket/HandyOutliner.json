@@ -1,0 +1,27 @@
+{
+    "homepage": "https://handyoutlinerfo.sourceforge.net/",
+    "description": "HandyOutliner for DjVu / PDF.",
+    "license": "GPL v2",
+    "version": "0",
+    "architecture": {
+        "64bit": {
+            "url": "http://sourceforge.net/projects/handyoutlinerfo/files/1.1.6.4/handyoutliner_1.1.6.4.zip",
+            "hash": "sha1:7727a5530bb0ea120b41e98e06bd54d57aee6b58"
+        }
+    },
+    "bin": [
+        "HandyOutliner.exe"
+    ],
+    "checkver": {
+        "url": "https://handyoutlinerfo.sourceforge.net/",
+        "regex": "Current version ([\\d].[\\d].[\\d].[\\d]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "http://sourceforge.net/projects/handyoutlinerfo/files/$version/handyoutliner_$version.zip"
+            }
+        },
+        "extract_dir": "HandyOutliner_$version"
+    }
+}
