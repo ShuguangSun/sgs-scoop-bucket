@@ -14,7 +14,7 @@
         "bin\\x64\\Rscript.exe",
         "bin\\x64\\Rterm.exe"
       ],
-      "shortcuts": [["bin\\curr_arch\\Rgui.exe", "Rgui"]]
+      "shortcuts": [["bin\\x64\\Rgui.exe", "Rgui"]]
     }
   },
   "innosetup": true,
