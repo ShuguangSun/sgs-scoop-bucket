@@ -19,10 +19,10 @@
         ]
     ],
     "env_add_path": "scripts",
+    "persist": "settings",
     "checkver": {
-        "github": "https://github.com/winpython/winpython",
-        "regex": "/download/(?<gitv>[\\d.]+)/Winpython64-(?<version>[\\d.]+)\\.exe",
-        "reverse": true
+        "url": "https://winpython.github.io/md5_sha1.txt",
+        "regex": "Winpython64-([\\d.]+)\\.exe"
     },
     "autoupdate": {
         "architecture": {
