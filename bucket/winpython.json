@@ -21,13 +21,14 @@
     "env_add_path": "scripts",
     "persist": "settings",
     "checkver": {
-        "url": "https://winpython.github.io/md5_sha1.txt",
-        "regex": "Winpython64-([\\d.]+)\\.exe"
+        "github": "https://github.com/winpython/winpython",
+        "regex": "/download/(?<gitv>[\\d.]+)final/Winpython64-(?<version>[\\d.]+)\\.exe",
+        "reverse": true
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/winpython/winpython/releases/download/$matchGitv/Winpython64-$matchVersion.exe#/dl.7z",
+                "url": "https://github.com/winpython/winpython/releases/download/$matchGitvfinal/Winpython64-$matchVersion.exe#/dl.7z",
                 "extract_dir": "WPy64-$cleanVersion\\python-$majorVersion.$minorVersion.$patchVersion.amd64"
             }
         },

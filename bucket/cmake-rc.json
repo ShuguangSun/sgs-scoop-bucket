@@ -7,7 +7,7 @@
         "64bit": {
             "url": "https://cmake.org/files/v3.22/cmake-3.22.0-rc1-windows-x86_64.zip",
             "hash": "d25742917fdee361bf9759fe2e81602d95245e85f4b2b55bcb0faf42efb7b139",
-            "extract_dir": "cmake-3.22.0-rc1-windows-x86_64"
+            "extract_dir": "cmake-3.22.0-rc1-windows-win64-x64"
         }
     },
     "shortcuts": [
@@ -24,8 +24,8 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://cmake.org/files/v$majorVersion.$minorVersion/cmake-$version-windows-x86_64.zip",
-                "extract_dir": "cmake-$version-windows-x86_64"
+                "url": "https://cmake.org/files/v$majorVersion.$minorVersion/cmake-$version-windows-win64-x64.zip",
+                "extract_dir": "cmake-$version-windows-win64-x64"
             }
         },
         "hash": {
