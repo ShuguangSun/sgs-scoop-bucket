@@ -24,8 +24,8 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://cmake.org/files/v$majorVersion.$minorVersion/cmake-$version-windows-win64-x64.zip",
-                "extract_dir": "cmake-$version-windows-win64-x64"
+                "url": "https://cmake.org/files/v$majorVersion.$minorVersion/cmake-$version-win64-x64.zip",
+                "extract_dir": "cmake-$version-win64-x64"
             }
         },
         "hash": {
