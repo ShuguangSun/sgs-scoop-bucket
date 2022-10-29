@@ -24,9 +24,9 @@
     ],
     "checkver": {
         "url": "https://platform.wps.cn/",
-        "regex": "W\\.P\\.S\\.([\\d.]+)\\.exe"
+        "regex": "WPS_Setup_([\\d.]+)\\.exe"
     },
     "autoupdate": {
-        "url": "https://official-package.wpscdn.cn/wps/download/W.P.S.$version.exe"
+        "url": "https://official-package.wpscdn.cn/wps/download/WPS_Setup_$version.exe"
     }
 }
