@@ -15,14 +15,11 @@
             "Emacs (kienng)"
         ]
     ],
-    "checkver": {
-        "url": "https://github.com/kiennq/emacs-build/releases/latest",
-        "regex": "/kiennq/emacs-build/releases/download/v(?<version>[\\d\\w.]+)/emacs-master-x86_64-full.zip"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/kiennq/emacs-build/releases/download/v$matchVersion/emacs-master-x86_64-full.zip"
+                "url": "https://github.com/kiennq/emacs-build/releases/download/v$version/emacs-master-x86_64-full.zip"
             }
         }
     }
