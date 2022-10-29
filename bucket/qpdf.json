@@ -17,7 +17,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/qpdf/qpdf/releases/download/release-qpdf-$version/qpdf-$version-bin-msvc64.zip"
+                "url": "https://github.com/qpdf/qpdf/releases/download/v$version/qpdf-$version-msvc64.zip",
+                "hash": {
+                    "url": "$url.sha256"
+                }
             }
         },
         "extract_dir": "qpdf-$version"
