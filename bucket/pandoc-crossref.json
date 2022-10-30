@@ -10,11 +10,14 @@
         }
     },
     "bin": "pandoc-crossref.exe",
-    "checkver": "github",
+    "checkver": {
+        "url": "https://api.github.com/repos/lierdakil/pandoc-crossref/releases",
+        "jsonpath": "$[0].tag_name"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/lierdakil/pandoc-crossref/releases/download/v$version/pandoc-crossref-Windows.7z"
+                "url": "https://github.com/lierdakil/pandoc-crossref/releases/download/$version/pandoc-crossref-Windows.7z"
             }
         }
     },
