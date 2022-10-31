@@ -1,12 +1,12 @@
 {
     "homepage": "https://github.com/mattn/efm-langserver",
-    "version": "0",
+    "version": "0.0.44",
     "license": "MIT",
     "description": " General purpose Language Server .",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/lierdakil/pandoc-crossref/releases/download/v0.3.13.0b/pandoc-crossref-Windows.7z",
-            "hash": "f741ddf88c5ab4a08af422981143bc850d4660e62ff4419dc4de12f2bc96788d"
+            "url": "https://github.com/mattn/efm-langserver/releases/download/v0.0.44/efm-langserver_v0.0.44_windows_amd64.zip",
+            "hash": "1a4acbf25ed14f89a32eb17b1b0b9f0b6e92b47c799475b818913c8aaca22aa2"
         }
     },
     "checkver": "github",
