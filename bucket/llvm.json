@@ -1,12 +1,12 @@
 {
-    "version": "15.0.3",
+    "version": "15.0.4",
     "description": "Collection of modular and reusable compiler and toolchain technologies.",
     "homepage": "https://www.llvm.org",
     "license": "NCSA",
     "architecture": {
         "64bit": {
-            "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/llvm/llvm-project/LatestRelease/LLVM-15.0.3-win64.exe#/dl.7z",
-            "hash": "83da5feacb437a541b5572a79f4672d18d976c4b320c48e58a3efd068dcf0810"
+            "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/llvm/llvm-project/LatestRelease/LLVM-15.0.4-win64.exe#/dl.7z",
+            "hash": "3c5afdd06abb98e9e4ad2fedd6e3a8748d084d0698228f1e4394ba2e23ec4425"
         }
     },
     "pre_install": "Remove-Item \"$dir\\`$*\" -Recurse",
