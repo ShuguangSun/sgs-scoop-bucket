@@ -1,11 +1,11 @@
 {
     "homepage": "https://github.com/JabRef/jabref",
-    "version": "2022-11-03",
+    "version": "2022-11-05",
     "license": "MIT",
     "architecture": {
         "64bit": {
             "url": "https://builds.jabref.org/main/JabRef-5.8-portable_windows.zip",
-            "hash": "982a147ac79b4a0fc3e8e992723c81433f00882411a5c77b29d0f8d73413fc5b",
+            "hash": "e64863b4490ede9574845d147c954aaf7c220ec7e049f4dfbb3c2ecb2e8f0b4f",
             "extract_dir": "Jabref"
         }
     },
