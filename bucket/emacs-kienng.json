@@ -15,7 +15,11 @@
             "Emacs (kienng)"
         ]
     ],
-    "checkver": "github",
+    "checkver": {
+        "url": "https://api.github.com/repos/lierdakil/pandoc-crossref/releases",
+        "jsonpath": "$[0].tag_name",
+        "regex": "v([\\d.a-z]+)"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
