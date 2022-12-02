@@ -12,10 +12,10 @@
     "architecture": {
         "64bit": {
             "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/git-lfs/git-lfs/LatestRelease/git-lfs-windows-amd64-v3.3.0.zip",
-            "extract_dir": "git-lfs-3.2.0",
             "hash": "1df5874f22c35c679159f0aaf9e24333051f52768eade0204d22200b79141743"
         }
     },
+    "extract_dir": "git-lfs-3.3.0",
     "bin": "git-lfs.exe",
     "checkver": {
         "github": "https://github.com/git-lfs/git-lfs"
