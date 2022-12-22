@@ -29,6 +29,13 @@
             "Visual Studio Code"
         ]
     ],
+    "post_install": [
+        "$extensions_file = \"$dir\\data\\extensions\\extensions.json\"",
+        "if ((Test-Path \"$extensions_file\")) {",
+        "    info 'Adjusting path in extensions file...'",
+        "    (Get-Content \"$extensions_file\") -replace '(?<=vscode(/|\\\\\\\\)).*?(?=(/|\\\\\\\\)data(/|\\\\\\\\)extensions)', $version | Set-Content \"$extensions_file\"",
+        "}"
+    ],
     "persist": "data",
     "checkver": {
         "url": "https://code.visualstudio.com/sha?build=stable",
