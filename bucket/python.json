@@ -1,17 +1,17 @@
 {
-    "version": "3.11.0",
+    "version": "3.11.1",
     "description": "A programming language that lets you work quickly and integrate systems more effectively.",
     "homepage": "https://www.python.org/",
     "license": "Python-2.0",
     "notes": "Allow applications and third-party installers to find python by running: \"$dir\\install-pep-514.reg\"",
     "architecture": {
         "64bit": {
-            "url": "https://registry.npmmirror.com/-/binary/python/3.11.0/python-3.11.0-amd64.exe#/setup.exe",
-            "hash": "md5:4fe11b2b0bb0c744cf74aff537f7cd7f"
+            "url": "https://registry.npmmirror.com/-/binary/python/3.11.1/python-3.11.1-amd64.exe#/setup.exe",
+            "hash": "md5:3a02deed11f7ff4dbc1188d201ad164a"
         },
         "32bit": {
-            "url": "https://registry.npmmirror.com/-/binary/python/3.11.0/python-3.11.0.exe#/setup.exe",
-            "hash": "2d7b87eacdd5925af4e0db0ec155dd2b765aa27efe609c0684cacc6fbf46f104"
+            "url": "https://registry.npmmirror.com/-/binary/python/3.11.1/python-3.11.1.exe#/setup.exe",
+            "hash": "md5:a592f5db4f45ddc3a46c0ae465d3bee0"
         }
     },
     "pre_install": [
@@ -66,8 +66,8 @@
         "python",
         "pythonw",
         [
-        "python.exe",
-        "python3"
+            "python.exe",
+            "python3"
         ]
     ],
     "env_add_path": [
