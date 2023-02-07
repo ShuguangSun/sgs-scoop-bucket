@@ -69,6 +69,8 @@
         ]
     },
     "bin": [
+        "python.exe",
+        "pythonw.exe",
         [
             "python.exe",
             "python3"
