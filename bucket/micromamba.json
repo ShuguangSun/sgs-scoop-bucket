@@ -12,9 +12,6 @@
     "pkgs",
     "Scripts"
   ],
-    "env_set": {
-        "MAMBA_ROOT_PREFIX": "$dir"
-    },
     "checkver": {
         "github": "https://github.com/mamba-org/mamba"
     },
