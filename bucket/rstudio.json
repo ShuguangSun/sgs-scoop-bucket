@@ -1,5 +1,5 @@
 {
-    "version": "2022.07.2+576",
+    "version": "2023.03.1-446",
     "homepage": "https://posit.co/download/rstudio-desktop/",
     "description": "An IDE for R, which includes a console, syntax-highlighting editor that supports direct code execution, as well as tools for plotting, history, debugging and workspace management.",
     "license": "AGPL-3.0-only",
@@ -7,8 +7,8 @@
     "depends": "r",
     "architecture": {
         "64bit": {
-            "url": "https://s3.amazonaws.com/rstudio-ide-build/desktop/windows/RStudio-2022.07.2-576.zip",
-            "hash": "063ead1f62f773c3228c9213dbe75879a8c4d0d2f5cf49f170b8ab5ded060308"
+            "url": "https://download1.rstudio.org/electron/windows/RStudio-2023.03.1-446.zip",
+            "hash": "f3d2435c1a420c57071ecf220079427e7b9d90a573867459556169255ef2c67b"
         }
     },
     "bin": [
@@ -24,14 +24,14 @@
         ]
     ],
     "checkver": {
-      "url": "https://posit.co/download/rstudio-desktop/",
-      "regex": "RStudio-(?<date>[\\d.]+)-(?<build>\\d+)",
-      "replace": "${date}-${build}"
+        "url": "https://posit.co/download/rstudio-desktop/",
+        "regex": "RStudio-(?<date>[\\d.]+)-(?<build>\\d+)",
+        "replace": "${date}-${build}"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-              "url": "https://download1.rstudio.org/electron/windows/RStudio-$matchDate-$matchBuild.zip"
+                "url": "https://download1.rstudio.org/electron/windows/RStudio-$matchDate-$matchBuild.zip"
             }
         },
         "hash": {
