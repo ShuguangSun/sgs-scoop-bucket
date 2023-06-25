@@ -1,12 +1,12 @@
 {
     "homepage": "https://github.com/lierdakil/pandoc-crossref",
-    "version": "0.3.16.0",
+    "version": "0.3.16.0b",
     "license": "GPL-2.0-or-later",
     "description": "Pandoc filter for cross-references.",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/lierdakil/pandoc-crossref/releases/download/v0.3.16.0/pandoc-crossref-Windows.7z",
-            "hash": "f17d94845286a291affd6bf63fb3d03200c4fd5267a227863d5ffa660353bcb1"
+            "url": "https://github.com/lierdakil/pandoc-crossref/releases/download/v0.3.16.0b/pandoc-crossref-Windows.7z",
+            "hash": "5df902ebbb67d0b645d556d84159b8112d01ccc858b1d2d9b6f3c0d2e0743ca1"
         }
     },
     "bin": "pandoc-crossref.exe",
