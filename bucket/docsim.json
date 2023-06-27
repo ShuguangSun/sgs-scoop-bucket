@@ -1,0 +1,23 @@
+{
+    "homepage": "https://github.com/hrs/docsim",
+    "version": "0",
+    "license": "GPL-3.0-or-later",
+    "description": "A simple, fast command-line tool for searching and comparing text documents.",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/jgm/pandoc/releases/download/3.1.4/pandoc-3.1.4-windows-x86_64.zip",
+            "hash": "67ca96845a91b52c801488dfd09eaf4bced5430fdae9f4e0ec839635b36b269f"
+        }
+    },
+    "bin": "docsim.exe",
+    "checkver": {
+        "github": "https://github.com/hrs/docsim"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+              "url": "https://github.com/hrs/docsim/releases/download/v$version/docsim_$version_windows_amd64.tar.gz"
+            }
+        }
+    }
+}
