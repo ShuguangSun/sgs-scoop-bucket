@@ -1,12 +1,12 @@
 {
-    "version": "17.0.3",
+    "version": "17.0.4",
     "description": "Collection of modular and reusable compiler and toolchain technologies.",
     "homepage": "https://www.llvm.org",
     "license": "NCSA",
     "architecture": {
         "64bit": {
-            "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/llvm/llvm-project/LatestRelease/LLVM-17.0.3-win64.exe#/dl.7z",
-            "hash": "b63a49f10110048283da852bfb81cb3e9573004b5a8286f51d530c7488be217a"
+            "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/llvm/llvm-project/LatestRelease/LLVM-17.0.4-win64.exe#/dl.7z",
+            "hash": "4e46abdb1b49ab0ccf20a924fc47e1fa7127a4f818cb3df5eb3eb23e3f674cc5"
         }
     },
     "pre_install": "Remove-Item \"$dir\\`$*\" -Recurse",
