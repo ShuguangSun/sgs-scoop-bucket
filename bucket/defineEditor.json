@@ -1,10 +1,10 @@
 {
-    "version": "1.1.16",
+    "version": "1.1.15",
     "description": "Visual Define-XML Editor",
     "homepage": "https://github.com/defineEditor/editor",
     "license": "AGPL-3.0",
-    "url": "https://github.com/defineEditor/editor/releases/download/v1.1.16-current/DefineEditor.1.1.16-current.exe#/DefineEditor.exe",
-    "hash": "a3d64af19b44e98e2005c5691e85dcd1614113fd04dfd8316a6cd9e673ede4a1",
+    "url": "https://github.com/defineEditor/editor/releases/download/v1.1.15-current/DefineEditor.1.1.15-current.exe#/DefineEditor.exe",
+    "hash": "059e75ba42e366df8606f8a5f17498b2991d9e11f2394ab7df202ea4b38761c9",
     "checkver": {
         "github": "https://github.com/defineEditor/editor"
     },
