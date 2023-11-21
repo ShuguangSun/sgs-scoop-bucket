@@ -17,7 +17,7 @@
     ],
     "checkver": {
       "github": "https://github.com/hiroi-sora/Umi-OCR",
-      "regex": "/releases/tag/release/[vV]?([\d.]+)"
+      "regex": "/releases/tag/release/[vV]?([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
