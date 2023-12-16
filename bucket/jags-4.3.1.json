@@ -10,9 +10,7 @@
         }
     },
     "bin": [
-        [
-          "x64\\bin\\jags.bat",
-          "x64\\bin\\jags-terminal.exe"
-        ]
+      "x64\\bin\\jags.bat",
+      "x64\\bin\\jags-terminal.exe"
     ]
 }
