@@ -1,5 +1,5 @@
 {
-    "version": "2023.09.1-494",
+    "version": "2023.12.0-369",
     "homepage": "https://posit.co/download/rstudio-desktop/",
     "description": "An IDE for R, which includes a console, syntax-highlighting editor that supports direct code execution, as well as tools for plotting, history, debugging and workspace management.",
     "license": "AGPL-3.0-only",
@@ -7,8 +7,8 @@
     "depends": "r",
     "architecture": {
         "64bit": {
-            "url": "https://download1.rstudio.org/electron/windows/RStudio-2023.09.1-494.zip",
-            "hash": "8ee446b200b252bec77a647c34d7d07e4632222d6ba67d86622a8cd5c176216c"
+            "url": "https://download1.rstudio.org/electron/windows/RStudio-2023.12.0-369.zip",
+            "hash": "32d0316d3e533a74afc39eaa25d6e0412adb3d546625af10a5211eb02ae8718a"
         }
     },
     "bin": [
