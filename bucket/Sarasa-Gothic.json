@@ -7,6 +7,6 @@
     "hash": "1ba444400dc4ab97ea55009037debb62fd7168b4121b4ea6789d0a783d08fd33",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/be5invis/Sarasa-Gothic/releases/download/v$version/sarasa-gothic-ttc-$version.7z"
+      "url": "https://github.com/be5invis/Sarasa-Gothic/releases/download/v$version/Sarasa-SuperTTC-$version.7z"
     }
 }
