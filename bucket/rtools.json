@@ -1,5 +1,5 @@
 {
-    "version": "4.3.5958.5975",
+    "version": "4.4.6104.6039",
     "description": "Tools for building packages for R under Microsoft Windows, or for building R itself.",
     "homepage": "https://cloud.r-project.org/bin/windows/Rtools",
     "license": "BSD-3-Clause",
@@ -11,8 +11,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://mirrors.aliyun.com/CRAN/bin/windows/Rtools/rtools43/files/rtools43-5958-5975.exe",
-            "hash": "bc25c0c8ce9716f7d13b31c255d19c21104c6b5ae18b374ce71ad50fcee05584"
+            "url": "https://mirrors.aliyun.com/CRAN/bin/windows/Rtools/rtools44/files/rtools44-6104-6039.exe",
+            "hash": "a842dfc1108f416946a059a1b2dd511d8f426d589956ed1ff4a72721364a84f0"
         }
     },
     "innosetup": true,
