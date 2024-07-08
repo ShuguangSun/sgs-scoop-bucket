@@ -1,0 +1,30 @@
+{
+    "homepage": "https://github.com/kiennq/emacs-build",
+    "version": "30",
+    "description": "Scripts to build a distribution of Emacs from sources, using MSYS2 and Mingw64(32).",
+    "license": "GPL (Emacs) + MIT (build script)",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/kiennq/emacs-build/releases/download/v31.263.20240707.50de3bc/emacs-master-x86_64-full.zip",
+            "hash": "d00ee9cdcdb5ec26175201a193303ea886bc89effc2b23588bbc0409fd9486a7"
+        }
+    },
+    "shortcuts": [
+        [
+            "bin\\runemacs.exe",
+            "Emacs (kienng UCRT)"
+        ]
+    ],
+    "checkver": {
+        "url": "https://api.github.com/repos/kiennq/emacs-build/releases",
+        "jsonpath": "$[0].tag_name",
+        "regex": "v([\\d.a-z]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+              "url": "https://github.com/kiennq/emacs-build/releases/download/v$version/emacs-master-ucrt-x86_64-full.zip"
+            }
+        }
+    }
+}
