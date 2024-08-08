@@ -12,7 +12,7 @@ jobs:
     steps:
     - uses: actions/checkout@main
     - name: Excavator
-      uses: shovel-org/GithubActions@main
+      uses: ScoopInstaller/GithubActions@main
       env:
         GITH_EMAIL: shuguang@gmail.com
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
