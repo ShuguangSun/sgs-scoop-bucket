@@ -32,20 +32,26 @@
             "msys2_shell.cmd",
             "mingw64",
             "-mingw64 -defterm -here -full-path -no-start"
-        ]
-    ],
-    "shortcuts": [
-        [
-            "msys2.exe",
-            "MSYS2"
         ],
         [
-            "mingw32.exe",
-            "MinGW32"
+            "msys2_shell.cmd",
+            "clang32",
+            "-clang32 -defterm -here -full-path -no-start"
         ],
         [
-            "mingw64.exe",
-            "MinGW64"
+            "msys2_shell.cmd",
+            "clang64",
+            "-clang64 -defterm -here -full-path -no-start"
+        ],
+        [
+            "msys2_shell.cmd",
+            "clangarm64",
+            "-clangarm64 -defterm -here -full-path -no-start"
+        ],
+        [
+            "msys2_shell.cmd",
+            "ucrt64",
+            "-ucrt64 -defterm -here -full-path -no-start"
         ]
     ],
     "persist": "home",
