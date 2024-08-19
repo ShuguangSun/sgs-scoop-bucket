@@ -17,7 +17,8 @@
         ]
     ],
     "checkver": {
-        "github": "https://github.com/hiroi-sora/Umi-OCR",
+      "url": "https://api.github.com/repos/hiroi-sora/Umi-OCR/tags",
+      "jsonpath": "$[0].name",
         "regex": "[vV]?([\\d.]+)"
     },
     "autoupdate": {
