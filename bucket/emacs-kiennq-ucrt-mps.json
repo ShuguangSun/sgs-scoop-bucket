@@ -24,7 +24,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/kiennq/emacs-build/releases/download/v$version/emacs-$matchH1-ucrt-x86_64-full.zip"
+              "url": "https://github.com/kiennq/emacs-build/releases/download/v$version/emacs-$matchH1-ucrt-x86_64-mps.msix#/dl.7z"
             }
         }
     }
