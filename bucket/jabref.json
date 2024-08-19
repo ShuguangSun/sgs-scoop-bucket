@@ -18,7 +18,7 @@
     ],
     "checkver": {
         "url": "https://builds.jabref.org/main/",
-        "regex": ">JabRef-(?<file>[\\d]+)-portable_windows.zip</a></td><td class=\"fb-d\">(?<date>[\\d-]+) (?<hour>[\\d]+):(?<minu>[\\d]+)</td>",
+        "regex": ">JabRef-(?<file>[\\d.]+)-portable_windows.zip</a></td><td class=\"fb-d\">(?<date>[\\d-]+) (?<hour>[\\d]+):(?<minu>[\\d]+)</td>",
       "replace": "${file}-${date}.${hour}-${minu}"
     },
     "autoupdate": {
