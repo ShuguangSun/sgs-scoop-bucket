@@ -24,9 +24,8 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-              "url": "https://github.com/kiennq/emacs-build/releases/download/v$version/emacs-$matchH1-ucrt-x86_64.msix#/dl.7z"
+                "url": "https://github.com/kiennq/emacs-build/releases/download/v$version/emacs-$matchH1-ucrt-x86_64.msix#/dl.7z"
             }
         }
-    },
-  "note": "https://github.com/kiennq/emacs-build/releases/download/v$version/emacs-$matchH1-ucrt-x86_64.nomps-full.zip",
+    }
 }
