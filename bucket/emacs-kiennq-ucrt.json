@@ -17,7 +17,7 @@
     ],
     "installer": {
         "script": [
-            "Rename-Item 'bin\\libstdc%2B%2B-6.dll' 'libstdc++-6.dll'"
+            "Rename-Item '$dir\\bin\\libstdc%2B%2B-6.dll' 'libstdc++-6.dll'"
         ]
     },
     "checkver": {
