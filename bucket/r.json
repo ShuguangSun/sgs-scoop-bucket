@@ -23,7 +23,6 @@
         "64bit": {
             "url": "https://mirrors.tuna.tsinghua.edu.cn/CRAN/bin/windows/base/old/4.4.2/R-4.4.2-win.exe",
             "hash": "md5:825c9a1098481da1fe636207148a23a4",
-            "pre_install": "Rename-Item \"$dir\\bin\\R,2.exe\" 'R.exe'",
             "bin": [
                 "bin\\x64\\R.exe",
                 "bin\\x64\\Rcmd.exe",
