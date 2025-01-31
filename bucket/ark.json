@@ -1,10 +1,10 @@
 {
     "homepage": "https://github.com/posit-dev/ark",
-    "version": "0.1.161",
+    "version": "0.1.162",
     "license": "MIT",
     "description": "Ark, an R kernel ",
-    "url": "https://github.com/posit-dev/ark/releases/download/0.1.161/ark-0.1.161-windows-x64.zip",
-    "hash": "237b494690ab594adaa5b6480d2c8d7492a72e13d702f362ba0de319b5813923",
+    "url": "https://github.com/posit-dev/ark/releases/download/0.1.162/ark-0.1.162-windows-x64.zip",
+    "hash": "569af0585e268bbdcaab06096e62d6ddea86df45433b463f2b5bc880cc88ce8d",
     "bin": "ark.exe",
     "checkver": {
         "url": "https://github.com/posit-dev/ark/tags",
