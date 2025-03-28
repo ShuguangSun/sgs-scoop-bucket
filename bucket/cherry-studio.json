@@ -1,14 +1,14 @@
 {
     "homepage": "https://github.com/CherryHQ/cherry-studio",
-    "version": "1.1.10",
+    "version": "1.1.13",
     "license": {
         "identifier": "Apache-2.0 + Proprietary",
         "url": "https://github.com/CherryHQ/cherry-studio/blob/main/LICENSE"
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/CherryHQ/cherry-studio/releases/download/v1.1.10/Cherry-Studio-1.1.10-portable.exe#/dl.7z",
-            "hash": "4051949316170cb605cbdea886d1fbb447fd35e6b4002c1ef4de223784c7b5a7",
+            "url": "https://github.com/CherryHQ/cherry-studio/releases/download/v1.1.13/Cherry-Studio-1.1.13-portable.exe#/dl.7z",
+            "hash": "8fff81ad9408fc8ef20bdc3fd9740d0328d9630dbae746163da5fe9326b69ecf",
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\" | Out-Null"
         }
     },
