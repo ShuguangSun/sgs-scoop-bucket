@@ -1,5 +1,5 @@
 {
-    "version": "4.5.0.0",
+    "version": "4.5.6536.6492",
     "description": "Tools for building packages for R under Microsoft Windows, or for building R itself.",
     "homepage": "https://cloud.r-project.org/bin/windows/Rtools",
     "license": "BSD-3-Clause",
@@ -12,7 +12,7 @@
     "architecture": {
         "64bit": {
             "url": "",
-            "hash": ""
+            "hash": "053aa53c159fb9290719290b3b8693ab57b89806551be75b88340bb2546578c8"
         }
     },
     "innosetup": true,
