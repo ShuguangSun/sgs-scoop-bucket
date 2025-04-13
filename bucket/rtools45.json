@@ -11,7 +11,7 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "",
+            "url": "https://mirrors.aliyun.com/CRAN/bin/windows/Rtools/rtools45/files/rtools45-6536-6492.exe",
             "hash": "053aa53c159fb9290719290b3b8693ab57b89806551be75b88340bb2546578c8"
         }
     },
