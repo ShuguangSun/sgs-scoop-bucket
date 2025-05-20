@@ -41,11 +41,7 @@
     ],
     "persist": "data",
     "checkver": {
-        "github": "https://github.com/CherryHQ/cherry-studio",
-        "hash": {
-            "url": "$baseurl/latest.yml",
-            "regex": "sha512: $base64"
-        }
+        "github": "https://github.com/CherryHQ/cherry-studio"
     },
     "autoupdate": {
         "architecture": {
