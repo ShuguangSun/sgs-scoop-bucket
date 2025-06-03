@@ -1,12 +1,12 @@
 {
     "homepage": "https://github.com/kiennq/emacs-build",
-    "version": "31.359.20250602.9fa0e1b",
+    "version": "31.357.20250525.34bdcae",
     "description": "Scripts to build a distribution of Emacs from sources, using MSYS2 and Mingw64(32).",
     "license": "GPL (Emacs) + MIT (build script)",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/kiennq/emacs-build/releases/download/v31.359.20250602.9fa0e1b/emacs-9fa0e1b-ucrt-x86_64-mps.msix#/dl.7z",
-            "hash": "20fb5028b166b386d81247150ecc4783f2752371b094962f2d321fb42a07d0a9"
+            "url": "https://github.com/kiennq/emacs-build/releases/download/v31.357.20250525.34bdcae/emacs-34bdcae-ucrt-x86_64-mps.msix#/dl.7z",
+            "hash": "18b6e8681c58c9727e7e624a1aa3f6bdf25170e33a9bbec4c8bfe395a7557f45"
         }
     },
     "shortcuts": [
