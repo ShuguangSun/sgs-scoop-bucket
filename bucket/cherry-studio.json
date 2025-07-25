@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/CherryHQ/cherry-studio/releases/download/v1.5.3/Cherry-Studio-1.5.3-x64-setup.exe#/dl.7z",
-            "hash": "f5c906b7b78f358a74189d424b2e8844558cbdee69cc0a5c399fb8e6b9b012f0",
+            "hash": "e6816ee759cbce6619af723aa4a36654bbe0c7059531726c097e7bd6fe4f3981",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$*\", \"$dir\\Unintall*\" -Recurse"
