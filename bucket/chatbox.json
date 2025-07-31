@@ -1,11 +1,11 @@
 {
     "homepage": "https://chatboxai.app",
-    "version": "0",
+    "version": "1.15.2",
     "license": "GPL-3.0 license",
     "architecture": {
         "64bit": {
             "url": "https://download.chatboxai.app/releases/Chatbox-1.15.2-Setup.exe#/dl.7z",
-            "hash": "ec5d0eefd92562fa7b2c5ab6ee7b4746567258ff58cb0de1f43721e7c1210b8e",
+            "hash": "343757ad254aaa7a0b273f898afdd43be414b4ce39cf95d6979c8edc67823751",
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\" | Out-Null"
         }
     },
@@ -31,8 +31,8 @@
         "}"
     ],
     "checkver": {
-      "url": "https://chatboxai.app/en/help-center/changelog",
-      "regex": "<h2>v([\\d.]+) - [\\d.]+</h2>",
+        "url": "https://chatboxai.app/en/help-center/changelog",
+        "regex": "<h2>v([\\d.]+) - [\\d.]+</h2>"
     },
     "autoupdate": {
         "architecture": {
