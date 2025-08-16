@@ -1,5 +1,5 @@
 {
-    "version": "0",
+    "version": "3.13.7",
     "description": "A programming language that lets you work quickly and integrate systems more effectively.",
     "homepage": "https://www.python.org/",
     "license": "Python-2.0",
@@ -11,7 +11,7 @@
         },
         "arm64": {
             "url": "https://registry.npmmirror.com/-/binary/python/3.13.7/python-3.13.7-arm64.exe#/setup.exe",
-            "hash": "md5:37df52717faa6c514342b8d43cae7026"
+            "hash": "md5:66c0ba98b20b7d4ea0904223d484d369"
         }
     },
     "pre_install": [
