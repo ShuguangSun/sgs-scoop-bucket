@@ -25,7 +25,7 @@
     "checkver": {
         "url": "https://api.github.com/repos/kiennq/emacs-build/releases",
         "jsonpath": "$[0].tag_name",
-        "regex": "v(?<m1>[\\d.]+)\\.(?<m2>[\\d.]+)\\.(?<d1>[\\d.]+)\\.(?<h1>[\\da-z]+)",
+        "regex": "v(?<m1>[\\d]+)\\.(?<m2>[\\d]+)\\.(?<d1>[\\d]+)\\.(?<h1>[\\da-z]+)",
         "replace": "${1}.${2}.${3}.${4}"
     },
     "autoupdate": {
