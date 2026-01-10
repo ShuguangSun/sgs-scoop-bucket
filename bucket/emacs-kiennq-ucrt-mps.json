@@ -31,7 +31,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/kiennq/emacs-build/releases/download/v$version/emacs-w64-ucrt-x86_64_emacs_$matchH1_mps.msix#/dl.7z"
+                "url": "https://github.com/kiennq/emacs-build/releases/download/v$version/mingw-w64-ucrt-x86_64_emacs_$matchH1_mps.msix#/dl.7z"
             }
         }
     }
