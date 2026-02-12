@@ -1,5 +1,5 @@
 {
-    "version": "24.11.0-0",
+    "version": "26.1.0-0",
     "description": "A conda-forge distribution",
     "homepage": "https://github.com/conda-forge/miniforge",
     "license": "BSD-3-Clause",
@@ -9,8 +9,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/conda-forge/miniforge/LatestRelease/Mambaforge-24.11.0-0-Windows-x86_64.exe",
-            "hash": "5bb092e9fa1bed273ab0493303c2afdd4ab7f441b525652ed1b339f0499a603b"
+            "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/conda-forge/miniforge/LatestRelease/Miniforge3-26.1.0-0-Windows-x86_64.exe",
+            "hash": "0ad64473c20a8649be9313f64ee898f4b23a35a7a25ea9998a751c542e5e3840"
         }
     },
     "pre_install": "if ($dir -match ' ') { error 'The installation directory cannot include a space'; break}",
@@ -48,10 +48,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-              "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/conda-forge/miniforge/LatestRelease/Miniforge3-$version-Windows-x86_64.exe",
-              "hash": {
-                "url": "$url.sha256"
-              }
+                "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/conda-forge/miniforge/LatestRelease/Miniforge3-$version-Windows-x86_64.exe",
+                "hash": {
+                    "url": "$url.sha256"
+                }
             }
         }
     }
