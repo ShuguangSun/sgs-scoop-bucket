@@ -16,18 +16,16 @@
   "pre_install": [
     "if ($dir -match ' ') { error 'The installation directory cannot include a space'; break}"
   ],
-  "post_install": [
-    "if (!(Test-Path \"$dir\\miniforge3_prompts.bat\")) {",
-    "  New-Item -Path \"$dir\\miniforge3_prompts.bat\" -ItemType File | Out-Null",
-    "  $shortscont = \"`\"$env:windir\\system32\\cmd.exe`\" `\"/K`\" `\"$dir\\Scripts\\activate.bat`\" `\"$dir`\"\"",
-    "  $shortscont | Set-Content \"$dir\\miniforge3_prompts.bat\"",
-    "}"
-  ],
     "installer": {
         "script": [
             "Move-Item \"$dir\\$fname\" \"$dir\\..\\$fname\"",
             "Start-Process -Wait \"$dir\\..\\$fname\" -ArgumentList @('/S', '/InstallationType=JustMe', '/RegisterPython=0', '/AddToPath=0', '/NoRegistry=1', \"/D=$dir\")",
-            "Remove-Item \"$dir\\..\\$fname\""
+          "Remove-Item \"$dir\\..\\$fname\"",
+          "if (!(Test-Path \"$dir\\miniforge3_prompts.bat\")) {",
+          "  New-Item -Path \"$dir\\miniforge3_prompts.bat\" -ItemType File | Out-Null",
+          "  $shortscont = \"`\"$env:windir\\system32\\cmd.exe`\" `\"/K`\" `\"$dir\\Scripts\\activate.bat`\" `\"$dir`\"\"",
+          "  $shortscont | Set-Content \"$dir\\miniforge3_prompts.bat\"",
+          "}"
         ]
     },
     "uninstaller": {
@@ -38,14 +36,16 @@
         ]
     },
     "shortcuts": [
-        [
-            "$dir\\miniforge3_prompts.bat",
-            "Miniforge Prompt"
+      [
+        "$dir\\miniforge3_prompts.bat",
+        "Miniforge Prompt"
         ]
     ],
     "bin": [
-      "$dir\\miniforge3_prompts.bat",
-      "Miniforge Prompt"
+      [
+        "miniforge3_prompts.bat",
+        "Miniforge Prompt"
+      ]
     ],
     "persist": "envs",
     "checkver": {
