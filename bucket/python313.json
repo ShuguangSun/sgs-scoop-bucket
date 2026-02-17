@@ -7,7 +7,7 @@
     "architecture": {
         "64bit": {
             "url": "https://registry.npmmirror.com/-/binary/python/3.13.12/python-3.13.12-amd64.exe#/setup.exe",
-            "hash": "7588c11aecd9b64fc6213525c4a13c85"
+            "hash": "96159fcb523ae404b707186a75b4104ee23851e476a5e838e14584cf1e03f981"
         },
         "arm64": {
             "url": "https://registry.npmmirror.com/-/binary/python/3.13.12/python-3.13.12-arm64.exe#/setup.exe",
