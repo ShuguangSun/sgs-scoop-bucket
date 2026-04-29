@@ -1,12 +1,12 @@
 {
     "homepage": "https://openwork.software/",
-    "version": "0.12.5",
+    "version": "0.12.6",
     "description": "An open-source alternative to Claude Cowork, powered by opencode ",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/different-ai/openwork/releases/download/v0.12.5/openwork-desktop-windows-x64.msi",
-            "hash": "b0f519c5eb19ea1ba219a048728b0ee6a42d58b9b1dcfdeb583d0f702557c51f"
+            "url": "https://github.com/different-ai/openwork/releases/download/v0.12.6/openwork-desktop-windows-x64.msi",
+            "hash": "99a7e7db2c7244b4d57806526581eaf3eb371343a9e898fc09a612f640f96a22"
         }
     },
     "extract_dir": "PFiles\\OpenWork",
