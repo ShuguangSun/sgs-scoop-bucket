@@ -12,7 +12,7 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/conda-forge/miniforge/releases/download/26.3.2-2/Miniforge3-26.3.2-2-Windows-x86_64.exe",
+            "url": "https://github.com/conda-forge/miniforge/releases/download/26.3.2-2/Miniforge3-26.3.2-2-Windows-x86_64.exe#/dl.7z",
             "hash": "088884aafcbf2e3355671d4e9b227b0d1cfb278e3bbe74ba2ad213c553874d70"
         }
     },
